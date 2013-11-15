@@ -1,0 +1,23 @@
+title : Public Private Sector
+
+safe: true
+lsi: false
+pygments: true
+auto: true
+
+source: developer
+destination: developer
+
+permalink: /:categories/:year/:month/:day/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 1000
+paginate_path: "/blog/page:num"
+
+production_url : http://si-data.github.io/developer/
+
+BASE_PATH : http://si-data.github.io/developer/
+
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
