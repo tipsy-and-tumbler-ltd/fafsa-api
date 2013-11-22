@@ -14,9 +14,9 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 paginate: 1000
 paginate_path: "/blog/page:num"
 
-production_url : http://si-data.github.io/developer/
+production_url : http://ed-data.github.io/fafsa-api/
 
-BASE_PATH : http://si-data.github.io/developer/
+BASE_PATH : http://ed-data.github.io/fafsa-api/
 
 archive_path: /archive.html
 categories_path : /categories.html
