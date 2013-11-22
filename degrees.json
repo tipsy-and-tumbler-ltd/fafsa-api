@@ -1,0 +1,38 @@
+[
+  {
+    "degree_certificate_code": 1,
+    "literal": "1st BA"
+  },
+  {
+    "degree_certificate_code": 2,
+    "literal": "2nd BA"
+  },
+  {
+    "degree_certificate_code": 3,
+    "literal": "Assoc. Technical"
+  },
+  {
+    "degree_certificate_code": 4,
+    "literal": "Assoc. General"
+  },
+  {
+    "degree_certificate_code": 5,
+    "literal": "Cert / Diploma"
+  },
+  {
+    "degree_certificate_code": 6,
+    "literal": "Cert / Diploma 2 YR"
+  },
+  {
+    "degree_certificate_code": 7,
+    "literal": "Teaching"
+  },
+  {
+    "degree_certificate_code": 8,
+    "literal": "Grad / Professor"
+  },
+  {
+    "degree_certificate_code": 9,
+    "literal": "Other / Undecided"
+  }
+]
