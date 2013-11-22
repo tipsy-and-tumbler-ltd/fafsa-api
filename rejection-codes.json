@@ -1,0 +1,172 @@
+[
+  {
+    "code": "24",
+    "edit": 4064,
+    "reason": "NSLDS Fraud Loan Flag is set"
+  },
+  {
+    "code": "2",
+    "edit": 4001,
+    "reason": "All income questions blank"
+  },
+  {
+    "code": "1",
+    "edit": 4003,
+    "reason": "Family does not qualify for simplified needs test and didn't complete supplemental data"
+  },
+  {
+    "code": "17",
+    "edit": 4005,
+    "reason": "Citizenship status blank or not eligible"
+  },
+  {
+    "code": "13",
+    "edit": 4006,
+    "reason": "First and last name blank"
+  },
+  {
+    "code": "N",
+    "edit": 4007,
+    "reason": "First or last name blank"
+  },
+  {
+    "code": "18",
+    "edit": 4009,
+    "reason": "SSN not valid on SSA database"
+  },
+  {
+    "code": "R",
+    "edit": 4010,
+    "reason": "SSN match but no Date of Birth match"
+  },
+  {
+    "code": "D",
+    "edit": 4012,
+    "reason": "SSN match but no Name match"
+  },
+  {
+    "code": "8",
+    "edit": 4014,
+    "reason": "SSN match with Date of Death"
+  },
+  {
+    "code": "5",
+    "edit": 4015,
+    "reason": "Date of birth blank or invalid"
+  },
+  {
+    "code": "A",
+    "edit": 4016,
+    "reason": "Date of birth year is 1900 through 1938"
+  },
+  {
+    "code": "B",
+    "edit": 4018,
+    "reason": "Independent status in question because of student's age"
+  },
+  {
+    "code": "12",
+    "edit": 4020,
+    "reason": "Parents’ Taxes Paid greater than or equal to AGI"
+  },
+  {
+    "code": "3",
+    "edit": 4022,
+    "reason": "Student’s Taxes Paid greater than or equal to AGI"
+  },
+  {
+    "code": "C",
+    "edit": 4024,
+    "reason": "Taxes paid greater than or equal to 40% of AGI (parent, indep. student)"
+  },
+  {
+    "code": "G",
+    "edit": 4028,
+    "reason": "Taxes paid greater than or equal to 40% of AGI (dependent student)"
+  },
+  {
+    "code": "20",
+    "edit": 4030,
+    "reason": "Non-filer, income meets IRS filing requirements (parent, indep. student)"
+  },
+  {
+    "code": "10",
+    "edit": 4036,
+    "reason": "Marital status and family members blank"
+  },
+  {
+    "code": "4",
+    "edit": 4038,
+    "reason": "Marital status date is greater than date signed"
+  },
+  {
+    "code": "21",
+    "edit": 4039,
+    "reason": "Marital status date greater than or equal to application receipt date and less than or equal to transaction receipt date"
+  },
+  {
+    "code": "W",
+    "edit": 4041,
+    "reason": "Number of family member appears high"
+  },
+  {
+    "code": "11",
+    "edit": 4045,
+    "reason": "Marital status inconsistent with base year income"
+  },
+  {
+    "code": "14",
+    "edit": 4048,
+    "reason": "Student’s signature missing"
+  },
+  {
+    "code": "15",
+    "edit": 4047,
+    "reason": "Parent's signature missing"
+  },
+  {
+    "code": "9",
+    "edit": 4049,
+    "reason": "Dependent, Father’s and Mother’s SSN blank"
+  },
+  {
+    "code": "6",
+    "edit": 4050,
+    "reason": "Father’s SSN not valid on SSA database"
+  },
+  {
+    "code": "7",
+    "edit": 4051,
+    "reason": "Mother’s SSN not valid on SSA database"
+  },
+  {
+    "code": "S",
+    "edit": 4052,
+    "reason": "Father’s SSN match but no Date of Birth match"
+  },
+  {
+    "code": "T",
+    "edit": 4054,
+    "reason": "Mother’s SSN match but no Date of Birth match"
+  },
+  {
+    "code": "E",
+    "edit": 4056,
+    "reason": "Father’s SSN match but no Name match"
+  },
+  {
+    "code": "F",
+    "edit": 4058,
+    "reason": "Mother’s SSN match but no Name match"
+  },
+  {
+    "code": "J",
+    "edit": 4060,
+    "reason": "Father’s SSN all zeroes but filed tax return"
+  },
+  {
+    "code": "K",
+    "edit": 4062,
+    "reason": "Mother’s SSN all zeroes but filed tax return"
+  }
+]
