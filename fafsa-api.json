@@ -87,12 +87,12 @@
           "parameters": [
             {
               "name": "fafsa_id",
-              "description": "Unique FAFSA ID:,
+              "description": "Unique FAFSA ID:",
               "required": true,
               "allowMultiple": false,
               "dataType": "string",
               "paramType": "query"
-            },          
+            },
             {
               "name": "last_name",
               "description": "Last Name",
