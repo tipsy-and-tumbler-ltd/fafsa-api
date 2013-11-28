@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'Setting Up My Database for FAFSA API'
+url: http://ed-data.github.io/fafsa-api/2013/11/26/setting-up-my-database-for-fafsa-api/
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/bw-database.jpg
+---
+
+<p><p>
+     <img class="c1" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-database.jpg" alt="" width="150" align="right" />
+</p>
+<p>
+     Before I got to work on the development of the FAFSA API I needed to select what my storage architecture will be for the API. When I'm developing an API around smaller sets of data I've been using JSON as the datastore, but in this case I think I will go with a MySQL backend.
+</p>
+<p>
+     This prototype of the FAFSA API will be running on an AWS EC2 linux instance, so the MySQL backend will run using AWS RDS. I created a new database and then using my JSON list of FAFSA fields I generated a MySQL table script.
+</p>
+<p>
+     Each FAFSA form can have well over 100 fields, so making sure they are small, precise datatypes is pretty critical. I will keep adjusting this as I am building the FAFSA API.
+</p><script src="https://gist.github.com/kinlane/7688081.js" type="text/javascript">
+</script></p>
+<center><p><a href="http://ed-data.github.io/fafsa-api/2013/11/26/setting-up-my-database-for-fafsa-api/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
+
