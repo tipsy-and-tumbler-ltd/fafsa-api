@@ -18,8 +18,8 @@
           "type": "application",
           "parameters": [
             {
-              "name": "q",
-              "description": "a text query to search across name and email of applicant",
+              "name": "fields",
+              "description": "a comma separated list of fields to return",
               "required": false,
               "allowMultiple": false,
               "dataType": "string",
@@ -1280,8 +1280,16 @@
               "allowMultiple": false,
               "dataType": "integer",
               "paramType": "path"
+            },
+            {
+              "name": "fields",
+              "description": "a comma separated list of fields to return",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
             }
-          ],
+          ],          
           "responseMessages": [
             {
               "code": 400,
