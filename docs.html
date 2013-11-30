@@ -12,7 +12,7 @@ overview: true
         window.swaggerUi = new SwaggerUi({
             url: $Path,
             dom_id: "swagger-ui-container",
-            supportedSubmitMethods: ['get'],             
+            supportedSubmitMethods: ['get','put','delete','post'],             
             onComplete: function(swaggerApi, swaggerUi){
             if(console) {
                 console.log("Loaded SwaggerUI")
