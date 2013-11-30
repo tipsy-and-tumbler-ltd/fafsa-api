@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: docs
 title: Federal Student Aid (FAFSA) API Docs
 overview: true
 ---  
@@ -33,31 +33,33 @@ overview: true
                               
     });
     
-    // Auto set the AppID and AppKey              
-    $appid = getUrlVar('appid');
-    //alert($appid);      
-    if($appid!='')
-         {
-        object = document.getElementsByTagName('input');   
-        $.each(object, function(index, item) {
-             //alert(dodump(item.name + ' = ' + item.value));
-             if(item.name == 'appid'){ item.value = $appid; }
-        }); 
-        }   
-        
-    $appkey = getUrlVar('appkey');  
-    //alert($appkey);       
-    if($appkey!='')
-         {
-        object = document.getElementsByTagName('input');   
-        $.each(object, function(index, item) {
-            // alert(dodump(item.name + ' = ' + item.value));
-             if(item.name == 'appkey'){ item.value = $appkey; }
-        }); 
-        }                
+    function setKeys()
+        {
+        // Auto set the AppID and AppKey              
+        $appid = getUrlVar('appid');
+        alert($appid);      
+        if($appid!='')
+             {
+            object = document.getElementsByTagName('input');   
+            $.each(object, function(index, item) {
+                 //alert(dodump(item.name + ' = ' + item.value));
+                 if(item.name == 'appid'){ item.value = $appid; }
+            }); 
+            }   
+        $appkey = getUrlVar('appkey');  
+        //alert($appkey);       
+        if($appkey!='')
+             {
+            object = document.getElementsByTagName('input');   
+            $.each(object, function(index, item) {
+                // alert(dodump(item.name + ' = ' + item.value));
+                 if(item.name == 'appkey'){ item.value = $appkey; }
+            }); 
+            }                
+        }
 </script>  
   
-<h2>Federal Student Aid (FAFSA) API Docs</h2>
+<h1>Federal Student Aid (FAFSA) API Docs</h1>
 
 <div class="swagger-shell"> 
     <div id="swagger-ui-container" class="swagger-ui-wrap">
