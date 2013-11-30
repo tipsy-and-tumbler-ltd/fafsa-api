@@ -117,7 +117,7 @@
         {
           "method": "PUT",
           "summary": "Updates existing application",
-          "notes": "Updates an existing FAFSA application",
+          "notes": "Updates an existing FAFSA application, all fields are optional, except the fafsa_ID, include as few or as many as you need.",
           "nickname": "updateApplication",
           "type": "application",
           "parameters": [
