@@ -33,30 +33,27 @@ overview: true
                               
     });
     
-    function setKeys()
-        {
-        // Auto set the AppID and AppKey              
-        $appid = getUrlVar('appid');
-        //alert($appid);      
-        if($appid!='')
-             {
-            object = document.getElementsByTagName('input');   
-            $.each(object, function(index, item) {
-                 //alert(dodump(item.name + ' = ' + item.value));
-                 if(item.name == 'appid'){ item.value = $appid; }
-            }); 
-            }   
-        $appkey = getUrlVar('appkey');  
-        //alert($appkey);       
-        if($appkey!='')
-             {
-            object = document.getElementsByTagName('input');   
-            $.each(object, function(index, item) {
-                // alert(dodump(item.name + ' = ' + item.value));
-                 if(item.name == 'appkey'){ item.value = $appkey; }
-            }); 
-            }                
-        }
+    // Auto set the AppID and AppKey              
+    $appid = getUrlVar('appid');
+    //alert($appid);      
+    if($appid!='')
+         {
+        object = document.getElementsByTagName('input');   
+        $.each(object, function(index, item) {
+             //alert(dodump(item.name + ' = ' + item.value));
+             if(item.name == 'appid'){ item.value = $appid; }
+        }); 
+        }   
+    $appkey = getUrlVar('appkey');  
+    //alert($appkey);       
+    if($appkey!='')
+         {
+        object = document.getElementsByTagName('input');   
+        $.each(object, function(index, item) {
+            // alert(dodump(item.name + ' = ' + item.value));
+             if(item.name == 'appkey'){ item.value = $appkey; }
+        }); 
+        }                
 </script>  
   
 <h1>Federal Student Aid (FAFSA) API Docs</h1>
