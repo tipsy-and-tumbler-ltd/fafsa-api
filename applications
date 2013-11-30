@@ -18,6 +18,24 @@
           "type": "application",
           "parameters": [
             {
+              "id": "appid",
+              "name": "appid",
+              "description": "application id for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "appkey",
+              "name": "appkey",
+              "description": "application key for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },          
+            {
               "name": "fields",
               "description": "a comma separated list of fields to return",
               "required": false,
@@ -43,6 +61,24 @@
           "nickname": "addApplicaiton",
           "type": "application",
           "parameters": [
+            {
+              "id": "appid",
+              "name": "appid",
+              "description": "application id for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "appkey",
+              "name": "appkey",
+              "description": "application key for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },          
             {
               "name": "first_name",
               "description": "Students first name",
@@ -85,6 +121,24 @@
           "nickname": "updateApplication",
           "type": "application",
           "parameters": [
+            {
+              "id": "appid",
+              "name": "appid",
+              "description": "application id for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "appkey",
+              "name": "appkey",
+              "description": "application key for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },          
             {
               "name": "fafsa_id",
               "description": "Unique FAFSA ID:",
@@ -1240,6 +1294,24 @@
           "type": "businesses",
           "parameters": [
             {
+              "id": "appid",
+              "name": "appid",
+              "description": "application id for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "appkey",
+              "name": "appkey",
+              "description": "application key for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },          
+            {
               "name": "fafsa_id",
               "description": "unique id of the FAFSA application",
               "required": false,
@@ -1273,6 +1345,24 @@
             "application/json"
           ],
           "parameters": [
+            {
+              "id": "appid",
+              "name": "appid",
+              "description": "application id for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "appkey",
+              "name": "appkey",
+              "description": "application key for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },          
             {
               "name": "idfafsa_id",
               "description": "unique id for the FAFSA application",
