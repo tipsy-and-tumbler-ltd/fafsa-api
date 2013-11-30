@@ -1310,7 +1310,7 @@
               "required": true,
               "allowMultiple": false,
               "dataType": "string",
-              "paramType": "query"
+              "paramType": "form"
             },
             {
               "id": "appkey",
@@ -1319,7 +1319,7 @@
               "required": true,
               "allowMultiple": false,
               "dataType": "string",
-              "paramType": "query"
+              "paramType": "form"
             },
             {
               "name": "fafsa_id",
