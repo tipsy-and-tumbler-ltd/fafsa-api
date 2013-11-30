@@ -34,7 +34,7 @@
               "allowMultiple": false,
               "dataType": "string",
               "paramType": "query"
-            },          
+            },
             {
               "name": "fields",
               "description": "a comma separated list of fields to return",
@@ -78,7 +78,7 @@
               "allowMultiple": false,
               "dataType": "string",
               "paramType": "query"
-            },          
+            },
             {
               "name": "first_name",
               "description": "Students first name",
@@ -113,7 +113,12 @@
               "message": "There are no businesses"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "path": "/applications/{fafsa_id}",
+      "operations": [
         {
           "method": "PUT",
           "summary": "Updates existing application",
@@ -138,7 +143,7 @@
               "allowMultiple": false,
               "dataType": "string",
               "paramType": "query"
-            },          
+            },
             {
               "name": "fafsa_id",
               "description": "Unique FAFSA ID:",
@@ -1285,7 +1290,12 @@
               "message": "Application does not exist"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "path": "/applications/{fafsa_id}",
+      "operations": [
         {
           "method": "DELETE",
           "summary": "Delete application",
@@ -1310,7 +1320,7 @@
               "allowMultiple": false,
               "dataType": "string",
               "paramType": "query"
-            },          
+            },
             {
               "name": "fafsa_id",
               "description": "unique id of the FAFSA application",
@@ -1362,7 +1372,7 @@
               "allowMultiple": false,
               "dataType": "string",
               "paramType": "query"
-            },          
+            },
             {
               "name": "fafsa_id",
               "description": "unique id for the FAFSA application",
@@ -1379,7 +1389,7 @@
               "dataType": "string",
               "paramType": "query"
             }
-          ],          
+          ],
           "responseMessages": [
             {
               "code": 400,
