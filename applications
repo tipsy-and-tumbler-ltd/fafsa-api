@@ -1364,7 +1364,7 @@
               "paramType": "query"
             },          
             {
-              "name": "idfafsa_id",
+              "name": "fafsa_id",
               "description": "unique id for the FAFSA application",
               "required": false,
               "allowMultiple": false,
