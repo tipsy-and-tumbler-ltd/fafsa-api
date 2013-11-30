@@ -1300,8 +1300,8 @@
           "method": "DELETE",
           "summary": "Delete application",
           "notes": "Deletes an existing application from the system",
-          "nickname": "getBusinesses",
-          "type": "businesses",
+          "nickname": "deleteApplication",
+          "type": "application",
           "parameters": [
             {
               "id": "appid",
