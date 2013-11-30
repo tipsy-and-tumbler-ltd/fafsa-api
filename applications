@@ -145,7 +145,7 @@
               "required": true,
               "allowMultiple": false,
               "dataType": "string",
-              "paramType": "query"
+              "paramType": "path"
             },
             {
               "name": "last_name",
@@ -1317,7 +1317,7 @@
               "required": false,
               "allowMultiple": false,
               "dataType": "string",
-              "paramType": "query"
+              "paramType": "path"
             }
           ],
           "produces": [
