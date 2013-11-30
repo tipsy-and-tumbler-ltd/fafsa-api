@@ -1,0 +1,1857 @@
+{
+  "apiVersion": "1.0",
+  "swaggerVersion": "1.2",
+  "basePath": "http://fafsa.api.publicprivatesector.org/applications/",
+  "resourcePath": "/",
+  "produces": [
+    "application/json"
+  ],
+  "apis": [
+    {
+      "path": "/applications/",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "Finds all applications",
+          "notes": "Returns a list of all FAFSA applications in the system.",
+          "nickname": "getApplications",
+          "type": "application",
+          "parameters": [
+            {
+              "name": "fields",
+              "description": "a comma separated list of fields to return",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "responseMessages": [
+            {
+              "code": 404,
+              "message": "There are no applications"
+            }
+          ]
+        },
+        {
+          "method": "POST",
+          "summary": "Adds new application",
+          "notes": "Adds a new FAFSA application",
+          "nickname": "addApplicaiton",
+          "type": "application",
+          "parameters": [
+            {
+              "name": "first_name",
+              "description": "Students first name",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "last_name",
+              "description": "Students last name",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_email_address",
+              "description": "Students last name",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "responseMessages": [
+            {
+              "code": 404,
+              "message": "There are no businesses"
+            }
+          ]
+        },
+        {
+          "method": "PUT",
+          "summary": "Updates existing application",
+          "notes": "Updates an existing FAFSA application",
+          "nickname": "updateApplication",
+          "type": "application",
+          "parameters": [
+            {
+              "name": "fafsa_id",
+              "description": "Unique FAFSA ID:",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "last_name",
+              "description": "Last Name",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "first_name",
+              "description": "First Name",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "middle_initial",
+              "description": "Middle Initial",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "street_address",
+              "description": "Street Address",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "city",
+              "description": "City",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "mailing_state",
+              "description": "Mailing State",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "zip_code",
+              "description": "Zip Code",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "social_security_number",
+              "description": "Social Security Number",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "date_of_birth",
+              "description": "Date of Birth",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_permanent_telephone_number",
+              "description": "Students Permanent Telephone Number",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_drivers_license_number",
+              "description": "Students Drivers License Number",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_drivers_license_state",
+              "description": "Students Drivers LIcense State",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_email_address",
+              "description": "Students E-Mail Address",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "citizenship",
+              "description": "Citizenship",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "alien_registration_number",
+              "description": "Alien Registration Number",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_marital_status",
+              "description": "Student's Marital Status",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_marital_status_date",
+              "description": "Student's Marital Status Date",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_state_of_legal_residence",
+              "description": "Student's State of Legal Residence",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "student_legal_resident_before_010108",
+              "description": "Student Legal Resident Before 01/01/08",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_legal_residence_date",
+              "description": "Student's Legal Residence Date",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "are_you_male_or_female",
+              "description": "Are You Male or Female",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "selective_service_registration",
+              "description": "Selective Service Registration",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "drug_conviction_affecting_eligibility",
+              "description": "Drug Conviction Affecting Eligibility",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "fathers_highest_educational_level",
+              "description": "Father's Highest Educational Level",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "mothers_highest_educational_or_equivalent",
+              "description": "Mother's Highest Educational or Equivalent",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "high_school_diploma_or_equivalent",
+              "description": "High School Diploma or Equivalent",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "high_school_name",
+              "description": "High School Name",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "high_school_city",
+              "description": "High School City",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "high_school_state",
+              "description": "High School State",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "bachelors_degree",
+              "description": "Bachelor's Degree",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "grade_level_in_college",
+              "description": "Grade Level in College",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "degreecertificate",
+              "description": "Degree/Certificate",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "interested_in_receiving_workstudy",
+              "description": "Interested in Receiving Work-Study",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_tax_return_status",
+              "description": "Student's Tax Return Status",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_type_of_tax_return",
+              "description": "Student’s Type of Tax Return",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "student_eligible_for_1040aez",
+              "description": "Student Eligible for 1040A/EZ",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_agi",
+              "description": "Student's AGI",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_taxes_paid",
+              "description": "Student's Taxes Paid",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_exemptions",
+              "description": "Student's Exemptions",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_income",
+              "description": "Student's Income",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "spouses_income",
+              "description": "Spouse's Income",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_cash_savings_and_checking",
+              "description": "Student's Cash, Savings, and Checking",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_real_estateinvestment_6_worth",
+              "description": "Student's Real Estate/Investment 6 Worth",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_businessfarm_net_6_worth",
+              "description": "Student's Business/Farm Net 6 Worth",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_education_credits",
+              "description": "Student’s Education Credits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_child_support_paid",
+              "description": "Student’s Child Support Paid",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_needbased_employment",
+              "description": "Student’s Need-Based Employment",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_grantscholarship_aid",
+              "description": "Student’s Grant/Scholarship Aid",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_combat_pay",
+              "description": "Student’s Combat Pay",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_coop_earnings",
+              "description": "Student’s Co-op Earnings",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_pension_payments",
+              "description": "Student’s Pension Payments",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_ira_payments",
+              "description": "Student’s IRA Payments",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_child_support_received",
+              "description": "Student’s Child Support Received",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_interest_income",
+              "description": "Student’s Interest Income",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_ira_distributions",
+              "description": "Student’s IRA Distributions",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_untaxed_pensions",
+              "description": "Student’s Untaxed Pensions",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_miliaryclergy_allowances",
+              "description": "Student’s Miliary/Clergy Allowances",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_veterans_noneducation_benefits",
+              "description": "Student’s Veterans Noneducation Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_other_untaxed_income",
+              "description": "Student’s Other Untaxed Income",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_other_nonreported_money_received",
+              "description": "Student’s Other Non-Reported Money Received",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "born_before_1190",
+              "description": "Born Before 1/1/90",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "is_student_married",
+              "description": "Is Student Married",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "graduate_or_professional_student",
+              "description": "Graduate or Professional Student",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "active_duty_military",
+              "description": "Active Duty Military",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "veteran_status",
+              "description": "Veteran Status",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "do_you_have_children",
+              "description": "Do You Have Children",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "dependents_other_than_children__spouse",
+              "description": "Dependents Other Than Children / Spouse",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "orphan_or_ward_of_the_court",
+              "description": "Orphan or Ward of the Court",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "emancipated_minor",
+              "description": "Emancipated Minor",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "in_legal_guardianship",
+              "description": "In Legal Guardianship",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "homeless_youth_determined_by_school",
+              "description": "Homeless Youth Determined By School",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "homeless_youth_detemined_by_hud",
+              "description": "Homeless Youth Detemined By HUD",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "at_risk_of_homelessness",
+              "description": "At Risk of Homelessness",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_marital_status",
+              "description": "Parents' Marital Status",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_marital_status_date",
+              "description": "Parents' Marital Status Date",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "fathers_ssn",
+              "description": "Father’s SSN",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "fathers_last_name",
+              "description": "Father’s Last Name",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "fathers_first_initial",
+              "description": "Father’s First Initial",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "fathers_date_of_birth",
+              "description": "Father’s Date of Birth",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "mothers_ssn",
+              "description": "Mother’s SSN",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "mothers_last_name",
+              "description": "Mother’s Last Name",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "mothers_first_initial",
+              "description": "Mother’s First Initial",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "mothers_date_of_birth",
+              "description": "Mother’s Date of Birth",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_email_address",
+              "description": "Parent’s E-Mail Address",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_state_of_legal_residence",
+              "description": "Parents' State of Legal Residence",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_legal_residents_before_1_1108",
+              "description": "Parents Legal Residents Before 1 1/1/08",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_legal_residence_date",
+              "description": "Parents' Legal Residence Date",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_number_of_family_members",
+              "description": "Parents' Number of Family Members",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_number_in_college",
+              "description": "Parents' Number in College",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_ssi_benefits",
+              "description": "Parents’ SSI Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_snap_benefits",
+              "description": "Parents’ SNAP Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_freereduced_price_lunch",
+              "description": "Parents’ Free/Reduced Price Lunch",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_tanf_benefits",
+              "description": "Parents’ TANF Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_wic_benefits",
+              "description": "Parents’ WIC Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_tax_return_status",
+              "description": "Parents' Tax Return Status",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_type_of_tax_return",
+              "description": "Parents’ Type of Tax Return",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_eligible_for_1040aez",
+              "description": "Parents’ Eligible for 1040A/EZ",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parent_dislocated_worker",
+              "description": "Parent Dislocated Worker",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_agi",
+              "description": "Parents' AGI",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_taxes_paid",
+              "description": "Parents' Taxes Paid",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_exemptions",
+              "description": "Parents' Exemptions",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "fathers_income",
+              "description": "Father's Income",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "mothers_income",
+              "description": "Mother's Income",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_cash_savings_and_checking",
+              "description": "Parents' Cash, Savings, and Checking",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_real_estateinvestment_net_worth",
+              "description": "Parents' Real Estate/Investment Net Worth",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_businessfarm_net_worth",
+              "description": "Parents' Business/Farm Net Worth",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_education_credits",
+              "description": "Parents’ Education Credits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_child_support_paid",
+              "description": "Parents’ Child Support Paid",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_needbased_employment",
+              "description": "Parents’ Need-Based Employment",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_grantscholarship_aid",
+              "description": "Parents’ Grant/Scholarship Aid",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_combat_pay",
+              "description": "Parents’ Combat Pay",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_coop_earnings",
+              "description": "Parents’ Co-op Earnings",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_pension_payments",
+              "description": "Parents’ Pension Payments",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_ira_payments",
+              "description": "Parents’ IRA Payments",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_child_support_received",
+              "description": "Parents’ Child Support Received",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_interest_income",
+              "description": "Parents’ Interest Income",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "patents_ira_distributions",
+              "description": "Patents’ IRA Distributions",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_untaxed_pensions",
+              "description": "Parents’ Untaxed Pensions",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_miliaryclergy_5_allowances",
+              "description": "Parents’ Miliary/Clergy 5 Allowances",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_veterans_5_noneducation_benefits",
+              "description": "Parents’ Veterans 5 Noneducation Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_other_untaxed_income",
+              "description": "Parents’ Other Untaxed Income",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_number_of_family_members",
+              "description": "Student's Number of Family Members",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_number_in_college",
+              "description": "Student's Number in College",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_ssi_benefits",
+              "description": "Student's SSI Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_snap_benefits",
+              "description": "Student's SNAP Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_freereduced_price_lunch",
+              "description": "Student's Free/Reduced Price Lunch",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_tanf_benefits",
+              "description": "Student's TANF Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_wic_benefits",
+              "description": "Student's WIC Benefits",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "studentspouse_dislocated_worker",
+              "description": "Student/Spouse Dislocated Worker",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "college_choices",
+              "description": "College Choices",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "college_choices",
+              "description": "College Choices",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "college_choices",
+              "description": "College Choices",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "college_choices",
+              "description": "College Choices",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "housing_plans",
+              "description": "Housing Plans",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "housing_plans",
+              "description": "Housing Plans",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "housing_plans",
+              "description": "Housing Plans",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "housing_plans",
+              "description": "Housing Plans",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "date_completed",
+              "description": "Date Completed",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "signed_by",
+              "description": "Signed By",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "parents_asset_threshold_exceeded",
+              "description": "Parents’ Asset Threshold Exceeded",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "name": "students_asset_threshold_exceeded",
+              "description": "Student’s Asset Threshold Exceeded",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "responseMessages": [
+            {
+              "code": 404,
+              "message": "Application does not exist"
+            }
+          ]
+        },
+        {
+          "method": "DELETE",
+          "summary": "Delete application",
+          "notes": "Deletes an existing application from the system",
+          "nickname": "getBusinesses",
+          "type": "businesses",
+          "parameters": [
+            {
+              "name": "fafsa_id",
+              "description": "unique id of the FAFSA application",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "responseMessages": [
+            {
+              "code": 404,
+              "message": "Application does not exist"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/applications/{fafsa_id}",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "Retrieve Application",
+          "notes": "Returns a single FAFSA application",
+          "type": "application",
+          "nickname": "getApplication",
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "idfafsa_id",
+              "description": "unique id for the FAFSA application",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "integer",
+              "paramType": "path"
+            },
+            {
+              "name": "fields",
+              "description": "a comma separated list of fields to return",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            }
+          ],          
+          "responseMessages": [
+            {
+              "code": 400,
+              "message": "Invalid FAFSA ID Supplied"
+            },
+            {
+              "code": 404,
+              "message": "Application Information Not Found"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "models": {
+    "businesses": {
+      "id": "application",
+      "properties": {
+        "fafsa_id": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string",
+          "description": "Last Name"
+        },
+        "first_name": {
+          "type": "string",
+          "description": "First Name"
+        },
+        "middle_initial": {
+          "type": "string",
+          "description": "Middle Initial"
+        },
+        "street_address": {
+          "type": "string",
+          "description": "Street Address"
+        },
+        "city": {
+          "type": "string",
+          "description": "City"
+        },
+        "mailing_state": {
+          "type": "string",
+          "description": "Mailing State"
+        },
+        "zip_code": {
+          "type": "string",
+          "description": "Zip Code"
+        },
+        "social_security_number": {
+          "type": "string",
+          "description": "Social Security Number"
+        },
+        "date_of_birth": {
+          "type": "string",
+          "description": "Date of Birth"
+        },
+        "students_permanent_telephone_number": {
+          "type": "string",
+          "description": "Students Permanent Telephone Number"
+        },
+        "students_drivers_license_number": {
+          "type": "string",
+          "description": "Students Drivers License Number"
+        },
+        "students_drivers_license_state": {
+          "type": "string",
+          "description": "Students Drivers LIcense State"
+        },
+        "students_email_address": {
+          "type": "string",
+          "description": "Students E-Mail Address"
+        },
+        "citizenship": {
+          "type": "string",
+          "description": "Citizenship"
+        },
+        "alien_registration_number": {
+          "type": "string",
+          "description": "Alien Registration Number"
+        },
+        "students_marital_status": {
+          "type": "string",
+          "description": "Student's Marital Status"
+        },
+        "students_marital_status_date": {
+          "type": "string",
+          "description": "Student's Marital Status Date"
+        },
+        "students_state_of_legal_residence": {
+          "type": "string",
+          "description": "Student's State of Legal Residence"
+        },
+        "student_legal_resident_before_010108": {
+          "type": "string",
+          "description": "Student Legal Resident Before 01/01/08"
+        },
+        "students_legal_residence_date": {
+          "type": "string",
+          "description": "Student's Legal Residence Date"
+        },
+        "are_you_male_or_female": {
+          "type": "string",
+          "description": "Are You Male or Female"
+        },
+        "selective_service_registration": {
+          "type": "string",
+          "description": "Selective Service Registration"
+        },
+        "drug_conviction_affecting_eligibility": {
+          "type": "string",
+          "description": "Drug Conviction Affecting Eligibility"
+        },
+        "fathers_highest_educational_level": {
+          "type": "string",
+          "description": "Father's Highest Educational Level"
+        },
+        "mothers_highest_educational_or_equivalent": {
+          "type": "string",
+          "description": "Mother's Highest Educational or Equivalent"
+        },
+        "high_school_diploma_or_equivalent": {
+          "type": "string",
+          "description": "High School Diploma or Equivalent"
+        },
+        "high_school_name": {
+          "type": "string",
+          "description": "High School Name"
+        },
+        "high_school_city": {
+          "type": "string",
+          "description": "High School City"
+        },
+        "high_school_state": {
+          "type": "string",
+          "description": "High School State"
+        },
+        "bachelors_degree": {
+          "type": "string",
+          "description": "Bachelor's Degree"
+        },
+        "grade_level_in_college": {
+          "type": "string",
+          "description": "Grade Level in College"
+        },
+        "degreecertificate": {
+          "type": "string",
+          "description": "Degree/Certificate"
+        },
+        "interested_in_receiving_workstudy": {
+          "type": "string",
+          "description": "Interested in Receiving Work-Study"
+        },
+        "students_tax_return_status": {
+          "type": "string",
+          "description": "Student's Tax Return Status"
+        },
+        "students_type_of_tax_return": {
+          "type": "string",
+          "description": "Student’s Type of Tax Return"
+        },
+        "student_eligible_for_1040aez": {
+          "type": "string",
+          "description": "Student Eligible for 1040A/EZ"
+        },
+        "students_agi": {
+          "type": "string",
+          "description": "Student's AGI"
+        },
+        "students_taxes_paid": {
+          "type": "string",
+          "description": "Student's Taxes Paid"
+        },
+        "students_exemptions": {
+          "type": "string",
+          "description": "Student's Exemptions"
+        },
+        "students_income": {
+          "type": "string",
+          "description": "Student's Income"
+        },
+        "spouses_income": {
+          "type": "string",
+          "description": "Spouse's Income"
+        },
+        "students_cash_savings_and_checking": {
+          "type": "string",
+          "description": "Student's Cash, Savings, and Checking"
+        },
+        "students_real_estateinvestment_6_worth": {
+          "type": "string",
+          "description": "Student's Real Estate/Investment 6 Worth"
+        },
+        "students_businessfarm_net_6_worth": {
+          "type": "string",
+          "description": "Student's Business/Farm Net 6 Worth"
+        },
+        "students_education_credits": {
+          "type": "string",
+          "description": "Student’s Education Credits"
+        },
+        "students_child_support_paid": {
+          "type": "string",
+          "description": "Student’s Child Support Paid"
+        },
+        "students_needbased_employment": {
+          "type": "string",
+          "description": "Student’s Need-Based Employment"
+        },
+        "students_grantscholarship_aid": {
+          "type": "string",
+          "description": "Student’s Grant/Scholarship Aid"
+        },
+        "students_combat_pay": {
+          "type": "string",
+          "description": "Student’s Combat Pay"
+        },
+        "students_coop_earnings": {
+          "type": "string",
+          "description": "Student’s Co-op Earnings"
+        },
+        "students_pension_payments": {
+          "type": "string",
+          "description": "Student’s Pension Payments"
+        },
+        "students_ira_payments": {
+          "type": "string",
+          "description": "Student’s IRA Payments"
+        },
+        "students_child_support_received": {
+          "type": "string",
+          "description": "Student’s Child Support Received"
+        },
+        "students_interest_income": {
+          "type": "string",
+          "description": "Student’s Interest Income"
+        },
+        "students_ira_distributions": {
+          "type": "string",
+          "description": "Student’s IRA Distributions"
+        },
+        "students_untaxed_pensions": {
+          "type": "string",
+          "description": "Student’s Untaxed Pensions"
+        },
+        "students_miliaryclergy_allowances": {
+          "type": "string",
+          "description": "Student’s Miliary/Clergy Allowances"
+        },
+        "students_veterans_noneducation_benefits": {
+          "type": "string",
+          "description": "Student’s Veterans Noneducation Benefits"
+        },
+        "students_other_untaxed_income": {
+          "type": "string",
+          "description": "Student’s Other Untaxed Income"
+        },
+        "students_other_nonreported_money_received": {
+          "type": "string",
+          "description": "Student’s Other Non-Reported Money Received"
+        },
+        "born_before_1190": {
+          "type": "string",
+          "description": "Born Before 1/1/90"
+        },
+        "is_student_married": {
+          "type": "string",
+          "description": "Is Student Married"
+        },
+        "graduate_or_professional_student": {
+          "type": "string",
+          "description": "Graduate or Professional Student"
+        },
+        "active_duty_military": {
+          "type": "string",
+          "description": "Active Duty Military"
+        },
+        "veteran_status": {
+          "type": "string",
+          "description": "Veteran Status"
+        },
+        "do_you_have_children": {
+          "type": "string",
+          "description": "Do You Have Children"
+        },
+        "dependents_other_than_children__spouse": {
+          "type": "string",
+          "description": "Dependents Other Than Children / Spouse"
+        },
+        "orphan_or_ward_of_the_court": {
+          "type": "string",
+          "description": "Orphan or Ward of the Court"
+        },
+        "emancipated_minor": {
+          "type": "string",
+          "description": "Emancipated Minor"
+        },
+        "in_legal_guardianship": {
+          "type": "string",
+          "description": "In Legal Guardianship"
+        },
+        "homeless_youth_determined_by_school": {
+          "type": "string",
+          "description": "Homeless Youth Determined By School"
+        },
+        "homeless_youth_detemined_by_hud": {
+          "type": "string",
+          "description": "Homeless Youth Detemined By HUD"
+        },
+        "at_risk_of_homelessness": {
+          "type": "string",
+          "description": "At Risk of Homelessness"
+        },
+        "parents_marital_status": {
+          "type": "string",
+          "description": "Parents' Marital Status"
+        },
+        "parents_marital_status_date": {
+          "type": "string",
+          "description": "Parents' Marital Status Date"
+        },
+        "fathers_ssn": {
+          "type": "string",
+          "description": "Father’s SSN"
+        },
+        "fathers_last_name": {
+          "type": "string",
+          "description": "Father’s Last Name"
+        },
+        "fathers_first_initial": {
+          "type": "string",
+          "description": "Father’s First Initial"
+        },
+        "fathers_date_of_birth": {
+          "type": "string",
+          "description": "Father’s Date of Birth"
+        },
+        "mothers_ssn": {
+          "type": "string",
+          "description": "Mother’s SSN"
+        },
+        "mothers_last_name": {
+          "type": "string",
+          "description": "Mother’s Last Name"
+        },
+        "mothers_first_initial": {
+          "type": "string",
+          "description": "Mother’s First Initial"
+        },
+        "mothers_date_of_birth": {
+          "type": "string",
+          "description": "Mother’s Date of Birth"
+        },
+        "parents_email_address": {
+          "type": "string",
+          "description": "Parent’s E-Mail Address"
+        },
+        "parents_state_of_legal_residence": {
+          "type": "string",
+          "description": "Parents' State of Legal Residence"
+        },
+        "parents_legal_residents_before_1_1108": {
+          "type": "string",
+          "description": "Parents Legal Residents Before 1 1/1/08"
+        },
+        "parents_legal_residence_date": {
+          "type": "string",
+          "description": "Parents' Legal Residence Date"
+        },
+        "parents_number_of_family_members": {
+          "type": "string",
+          "description": "Parents' Number of Family Members"
+        },
+        "parents_number_in_college": {
+          "type": "string",
+          "description": "Parents' Number in College"
+        },
+        "parents_ssi_benefits": {
+          "type": "string",
+          "description": "Parents’ SSI Benefits"
+        },
+        "parents_snap_benefits": {
+          "type": "string",
+          "description": "Parents’ SNAP Benefits"
+        },
+        "parents_freereduced_price_lunch": {
+          "type": "string",
+          "description": "Parents’ Free/Reduced Price Lunch"
+        },
+        "parents_tanf_benefits": {
+          "type": "string",
+          "description": "Parents’ TANF Benefits"
+        },
+        "parents_wic_benefits": {
+          "type": "string",
+          "description": "Parents’ WIC Benefits"
+        },
+        "parents_tax_return_status": {
+          "type": "string",
+          "description": "Parents' Tax Return Status"
+        },
+        "parents_type_of_tax_return": {
+          "type": "string",
+          "description": "Parents’ Type of Tax Return"
+        },
+        "parents_eligible_for_1040aez": {
+          "type": "string",
+          "description": "Parents’ Eligible for 1040A/EZ"
+        },
+        "parent_dislocated_worker": {
+          "type": "string",
+          "description": "Parent Dislocated Worker"
+        },
+        "parents_agi": {
+          "type": "string",
+          "description": "Parents' AGI"
+        },
+        "parents_taxes_paid": {
+          "type": "string",
+          "description": "Parents' Taxes Paid"
+        },
+        "parents_exemptions": {
+          "type": "string",
+          "description": "Parents' Exemptions"
+        },
+        "fathers_income": {
+          "type": "string",
+          "description": "Father's Income"
+        },
+        "mothers_income": {
+          "type": "string",
+          "description": "Mother's Income"
+        },
+        "parents_cash_savings_and_checking": {
+          "type": "string",
+          "description": "Parents' Cash, Savings, and Checking"
+        },
+        "parents_real_estateinvestment_net_worth": {
+          "type": "string",
+          "description": "Parents' Real Estate/Investment Net Worth"
+        },
+        "parents_businessfarm_net_worth": {
+          "type": "string",
+          "description": "Parents' Business/Farm Net Worth"
+        },
+        "parents_education_credits": {
+          "type": "string",
+          "description": "Parents’ Education Credits"
+        },
+        "parents_child_support_paid": {
+          "type": "string",
+          "description": "Parents’ Child Support Paid"
+        },
+        "parents_needbased_employment": {
+          "type": "string",
+          "description": "Parents’ Need-Based Employment"
+        },
+        "parents_grantscholarship_aid": {
+          "type": "string",
+          "description": "Parents’ Grant/Scholarship Aid"
+        },
+        "parents_combat_pay": {
+          "type": "string",
+          "description": "Parents’ Combat Pay"
+        },
+        "parents_coop_earnings": {
+          "type": "string",
+          "description": "Parents’ Co-op Earnings"
+        },
+        "parents_pension_payments": {
+          "type": "string",
+          "description": "Parents’ Pension Payments"
+        },
+        "parents_ira_payments": {
+          "type": "string",
+          "description": "Parents’ IRA Payments"
+        },
+        "parents_child_support_received": {
+          "type": "string",
+          "description": "Parents’ Child Support Received"
+        },
+        "parents_interest_income": {
+          "type": "string",
+          "description": "Parents’ Interest Income"
+        },
+        "patents_ira_distributions": {
+          "type": "string",
+          "description": "Patents’ IRA Distributions"
+        },
+        "parents_untaxed_pensions": {
+          "type": "string",
+          "description": "Parents’ Untaxed Pensions"
+        },
+        "parents_miliaryclergy_5_allowances": {
+          "type": "string",
+          "description": "Parents’ Miliary/Clergy 5 Allowances"
+        },
+        "parents_veterans_5_noneducation_benefits": {
+          "type": "string",
+          "description": "Parents’ Veterans 5 Noneducation Benefits"
+        },
+        "parents_other_untaxed_income": {
+          "type": "string",
+          "description": "Parents’ Other Untaxed Income"
+        },
+        "students_number_of_family_members": {
+          "type": "string",
+          "description": "Student's Number of Family Members"
+        },
+        "students_number_in_college": {
+          "type": "string",
+          "description": "Student's Number in College"
+        },
+        "students_ssi_benefits": {
+          "type": "string",
+          "description": "Student's SSI Benefits"
+        },
+        "students_snap_benefits": {
+          "type": "string",
+          "description": "Student's SNAP Benefits"
+        },
+        "students_freereduced_price_lunch": {
+          "type": "string",
+          "description": "Student's Free/Reduced Price Lunch"
+        },
+        "students_tanf_benefits": {
+          "type": "string",
+          "description": "Student's TANF Benefits"
+        },
+        "students_wic_benefits": {
+          "type": "string",
+          "description": "Student's WIC Benefits"
+        },
+        "studentspouse_dislocated_worker": {
+          "type": "string",
+          "description": "Student/Spouse Dislocated Worker"
+        },
+        "college_choices": {
+          "type": "string",
+          "description": "College Choices"
+        },
+        "housing_plans": {
+          "type": "string",
+          "description": "Housing Plans"
+        },
+        "date_completed": {
+          "type": "string",
+          "description": "Date Completed"
+        },
+        "signed_by": {
+          "type": "string",
+          "description": "Signed By"
+        },
+        "parents_asset_threshold_exceeded": {
+          "type": "string",
+          "description": "Parents’ Asset Threshold Exceeded"
+        },
+        "students_asset_threshold_exceeded": {
+          "type": "string",
+          "description": "Student’s Asset Threshold Exceeded"
+        }
+      }
+    }
+  }
+}
