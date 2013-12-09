@@ -1,0 +1,1 @@
+<?phprequire 'config.php';require 'Slim/Slim.php';require('lib/ThreeScaleClient.php');\Slim\Slim::registerAutoloader();$app = new \Slim\Slim();$route = '/';$app->get($route, function () {	});	include "methods/applications.php";$app->run();?>
