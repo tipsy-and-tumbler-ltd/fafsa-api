@@ -5,8 +5,8 @@ lsi: false
 pygments: true
 auto: true
 
-source: developer
-destination: developer
+source: fafsa-api
+destination: fafsa-api
 
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
