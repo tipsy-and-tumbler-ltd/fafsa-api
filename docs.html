@@ -6,13 +6,13 @@ overview: true
   
 <script type="text/javascript">
 
-    var $Path = 'http://ed-data.github.io/fafsa-api/api.json';
+    var $Path = 'http://fafsa.api.publicprivatesector.org/swagger/api.json';
 
     $(function () {
         window.swaggerUi = new SwaggerUi({
             url: $Path,
             dom_id: "swagger-ui-container",
-            supportedSubmitMethods: ['get', 'post', 'put', 'delete'],          
+            supportedSubmitMethods: ['get','post','put','delete'],          
             onComplete: function(swaggerApi, swaggerUi){
             if(console) {
                 console.log("Loaded SwaggerUI")
