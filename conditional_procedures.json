@@ -2,1081 +2,1081 @@
   {
     "edit_number": 1001,
     "edit_type": "Model Determination",
-    "condition": "Born Before 1/1/90 is blank or No, and Date of Birth is not blank or invalid and is less than 1/1/90",
-    "procedure": "Assume Yes for Born Before 1/1/90."
+    "edit_condition": "Born Before 1/1/90 is blank or No, and Date of Birth is not blank or invalid and is less than 1/1/90",
+    "edit_procedure": "Assume Yes for Born Before 1/1/90."
   },
   {
     "edit_number": 1002,
     "edit_type": "Model Determination",
-    "condition": "Born Before 1/1/90 is blank or Yes and Date of Birth is not blank or invalid and is greater than 12/31/89.",
-    "procedure": "Assume No for Born Before 1/1/90."
+    "edit_condition": "Born Before 1/1/90 is blank or Yes and Date of Birth is not blank or invalid and is greater than 12/31/89.",
+    "edit_procedure": "Assume No for Born Before 1/1/90."
   },
   {
     "edit_number": 1003,
     "edit_type": "Model Determination",
-    "condition": "Born Before 1/1/90 is blank, and Date of Birth is blank or invalid.",
-    "procedure": "Assume No for Born Before 1/1/90."
+    "edit_condition": "Born Before 1/1/90 is blank, and Date of Birth is blank or invalid.",
+    "edit_procedure": "Assume No for Born Before 1/1/90."
   },
   {
     "edit_number": 1004,
     "edit_type": "Model Determination",
-    "condition": "Is Student Married is blank or No, and Student's Marital Status is married or separated.",
-    "procedure": "Assume Yes for Is Student Married."
+    "edit_condition": "Is Student Married is blank or No, and Student's Marital Status is married or separated.",
+    "edit_procedure": "Assume Yes for Is Student Married."
   },
   {
     "edit_number": 1005,
     "edit_type": "Model Determination",
-    "condition": "￼Is Student Married is blank or Yes, and Student's Marital Status is single or divorced/widowed.",
-    "procedure": "Assume No for Is Student Married."
+    "edit_condition": "￼Is Student Married is blank or Yes, and Student's Marital Status is single or divorced/widowed.",
+    "edit_procedure": "Assume No for Is Student Married."
   },
   {
     "edit_number": 1006,
     "edit_type": "Model Determination",
-    "condition": "Is Student Married is blank, or Yes, Student's Marital Status is blank and Student's Number of Family Members is 01 or blank.",
-    "procedure": "Assume No for Is Student Married."
+    "edit_condition": "Is Student Married is blank, or Yes, Student's Marital Status is blank and Student's Number of Family Members is 01 or blank.",
+    "edit_procedure": "Assume No for Is Student Married."
   },
   {
     "edit_number": 1007,
     "edit_type": "Model Determination",
-    "condition": "Is Student Married is blank, Student's Marital Status is blank, Student's Number of Family Members is 02, Do You Have Children is “No”, and Legal Dependents Other Than Children/Spouse is No",
-    "procedure": "Assume Yes for Is Student Married."
+    "edit_condition": "Is Student Married is blank, Student's Marital Status is blank, Student's Number of Family Members is 02, Do You Have Children is “No”, and Legal Dependents Other Than Children/Spouse is No",
+    "edit_procedure": "Assume Yes for Is Student Married."
   },
   {
     "edit_number": 1008,
     "edit_type": "Model Determination",
-    "condition": "Is Student Married is blank or Yes, Student's Marital Status is blank, Student's Family Members is 02, and (Do You Have Children is “Yes”) or (Legal Dependents Other Than Children/Spouse is Yes).",
-    "procedure": "Assume No for Is Student Married."
+    "edit_condition": "Is Student Married is blank or Yes, Student's Marital Status is blank, Student's Family Members is 02, and (Do You Have Children is “Yes”) or (Legal Dependents Other Than Children/Spouse is Yes).",
+    "edit_procedure": "Assume No for Is Student Married."
   },
   {
     "edit_number": 1009,
     "edit_type": "Model Determination",
-    "condition": "Is Student Married is blank or No, Student's Marital Status is blank, Student's Family Members is 02, Do You Have Children is blank, Legal Dependents Other Than Children/Spouse is blank, and Spouse's Income is non-blank and non-zero.",
-    "procedure": "Assume Yes for Is Student Married."
+    "edit_condition": "Is Student Married is blank or No, Student's Marital Status is blank, Student's Family Members is 02, Do You Have Children is blank, Legal Dependents Other Than Children/Spouse is blank, and Spouse's Income is non-blank and non-zero.",
+    "edit_procedure": "Assume Yes for Is Student Married."
   },
   {
     "edit_number": 1010,
     "edit_type": "Model Determination",
-    "condition": "Is Student Married is blank or Yes, Student's Marital Status is blank, Student's Family Members is 02, Do You Have Children is blank, Legal Dependents Other Than Children/Spouse is blank, and Spouse's Income is blank or zero.",
-    "procedure": "Assume No for Is Student Married."
+    "edit_condition": "Is Student Married is blank or Yes, Student's Marital Status is blank, Student's Family Members is 02, Do You Have Children is blank, Legal Dependents Other Than Children/Spouse is blank, and Spouse's Income is blank or zero.",
+    "edit_procedure": "Assume No for Is Student Married."
   },
   {
     "edit_number": 1011,
     "edit_type": "Model Determination",
-    "condition": "Is Student Married is blank or No Student's Marital Status is blank, Student's Family Members is greater than 02, and Spouse's Income is non-blank and non- zero.",
-    "procedure": "Assume Yes for Is Student Married."
+    "edit_condition": "Is Student Married is blank or No Student's Marital Status is blank, Student's Family Members is greater than 02, and Spouse's Income is non-blank and non- zero.",
+    "edit_procedure": "Assume Yes for Is Student Married."
   },
   {
     "edit_number": 1012,
     "edit_type": "Model Determination",
-    "condition": "Is Student Married is blank or Yes, Student's Marital Status is blank, Student's Family Members is greater than 02, and Spouse's Income is blank or zero.",
-    "procedure": "Assume No for Is Student Married"
+    "edit_condition": "Is Student Married is blank or Yes, Student's Marital Status is blank, Student's Family Members is greater than 02, and Spouse's Income is blank or zero.",
+    "edit_procedure": "Assume No for Is Student Married"
   },
   {
     "edit_number": 1013,
     "edit_type": "Model Determination",
-    "condition": "(Do You Have Children is “Yes”) or (Legal Dependents Other Than Children/Spouse is Yes) and Student's Number Family Members is blank or 1.",
-    "procedure": "Assume No for Do You Have Children and/or Legal Dependents Other Than Children/Spouse, whichever field was reported as “Yes”."
+    "edit_condition": "(Do You Have Children is “Yes”) or (Legal Dependents Other Than Children/Spouse is Yes) and Student's Number Family Members is blank or 1.",
+    "edit_procedure": "Assume No for Do You Have Children and/or Legal Dependents Other Than Children/Spouse, whichever field was reported as “Yes”."
   },
   {
     "edit_number": 1014,
     "edit_type": "Model Determination",
-    "condition": "(All of Born Before 1/1/90, Graduate or Professional Student, Is Student Married, Orphan or Ward, Do You Have Children, Legal Dependents Other Than Children/Spouse, Active Military Duty, Veteran Status, Emancipated Minor, and In Legal Guardianship are “No”), and (any one of Homeless Youth Determined by School, Homeless Youth Determined by HUD, or At Risk of Homelessness is Yes) and student’s age as of Date Completed is equal to or greater than 22.",
-    "procedure": "Assume No for Homeless Youth Determined by School, Homeless Youth Determined by HUD and/or At Risk of Homelessness, whichever field was reported as “Yes”."
+    "edit_condition": "(All of Born Before 1/1/90, Graduate or Professional Student, Is Student Married, Orphan or Ward, Do You Have Children, Legal Dependents Other Than Children/Spouse, Active Military Duty, Veteran Status, Emancipated Minor, and In Legal Guardianship are “No”), and (any one of Homeless Youth Determined by School, Homeless Youth Determined by HUD, or At Risk of Homelessness is Yes) and student’s age as of Date Completed is equal to or greater than 22.",
+    "edit_procedure": "Assume No for Homeless Youth Determined by School, Homeless Youth Determined by HUD and/or At Risk of Homelessness, whichever field was reported as “Yes”."
   },
   {
     "edit_number": 1015,
     "edit_type": "Model Determination",
-    "condition": "Any one of Born Before 1/1/90, Graduate or Professional Student, Is Student Married, Orphan or Ward, Do You Have Children, Legal Dependents Other Than Children/Spouse, Active Military Duty, Veteran Status, Emancipated Minor, In Legal Guardianship, Homeless Youth Determined by School, Homeless Youth Determined by HUD, or At Risk of Homelessness is Yes.",
-    "procedure": "Set application model to Independent."
+    "edit_condition": "Any one of Born Before 1/1/90, Graduate or Professional Student, Is Student Married, Orphan or Ward, Do You Have Children, Legal Dependents Other Than Children/Spouse, Active Military Duty, Veteran Status, Emancipated Minor, In Legal Guardianship, Homeless Youth Determined by School, Homeless Youth Determined by HUD, or At Risk of Homelessness is Yes.",
+    "edit_procedure": "Set application model to Independent."
   },
   {
     "edit_number": 1016,
     "edit_type": "Model Determination",
-    "condition": "For records not meeting the above edit.",
-    "procedure": "Set application model to Dependent."
+    "edit_condition": "For records not meeting the above edit.",
+    "edit_procedure": "Set application model to Dependent."
   },
   {
     "edit_number": 1017,
     "edit_type": "Model Determination",
-    "condition": "Application model is Dependent and Dependency Override code is set to 1 or 4.",
-    "procedure": "Set application model to Independent."
+    "edit_condition": "Application model is Dependent and Dependency Override code is set to 1 or 4.",
+    "edit_procedure": "Set application model to Independent."
   },
   {
     "edit_number": 2001,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Marital Status is blank and Parents' Number of Family Members is 3 or greater.",
-    "procedure": "Assume Parents' Marital Status is married."
+    "edit_condition": "Parents' Marital Status is blank and Parents' Number of Family Members is 3 or greater.",
+    "edit_procedure": "Assume Parents' Marital Status is married."
   },
   {
     "edit_number": 2002,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Marital Status is blank and Parents' Number of Family Members is 2.",
-    "procedure": "Assume Parents' Marital Status is single."
+    "edit_condition": "Parents' Marital Status is blank and Parents' Number of Family Members is 2.",
+    "edit_procedure": "Assume Parents' Marital Status is single."
   },
   {
     "edit_number": 2003,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Number of Family Members is blank, 1, or 2 and Parents' Marital Status is married.",
-    "procedure": "Assume Parents' Number of Family Members is 3."
+    "edit_condition": "Parents' Number of Family Members is blank, 1, or 2 and Parents' Marital Status is married.",
+    "edit_procedure": "Assume Parents' Number of Family Members is 3."
   },
   {
     "edit_number": 2004,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Number of Family Members is blank or 1 and Parents' Marital Status is single, separated/divorced, or widowed.",
-    "procedure": "Assume Parents' Number of Family Members is 2."
+    "edit_condition": "Parents' Number of Family Members is blank or 1 and Parents' Marital Status is single, separated/divorced, or widowed.",
+    "edit_procedure": "Assume Parents' Number of Family Members is 2."
   },
   {
     "edit_number": 2005,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Number in College is blank.",
-    "procedure": "Assume Parents' Number in College is 1."
+    "edit_condition": "Parents' Number in College is blank.",
+    "edit_procedure": "Assume Parents' Number in College is 1."
   },
   {
     "edit_number": 2006,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Number in College is equal to Parents' Number of Family Members, both are greater than 1, and Professional Judgment Flag is not set to 1.",
-    "procedure": "Assume Parents' Number in College is 1."
+    "edit_condition": "Parents' Number in College is equal to Parents' Number of Family Members, both are greater than 1, and Professional Judgment Flag is not set to 1.",
+    "edit_procedure": "Assume Parents' Number in College is 1."
   },
   {
     "edit_number": 2007,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Number in College is greater than 6.",
-    "procedure": "Assume Parents' Number in College is 1."
+    "edit_condition": "Parents' Number in College is greater than 6.",
+    "edit_procedure": "Assume Parents' Number in College is 1."
   },
   {
     "edit_number": 2008,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents’ Number in College re-entered as greater than 6 on correction record.",
-    "procedure": "Make no assumption for Parents’ Number in College."
+    "edit_condition": "Parents’ Number in College re-entered as greater than 6 on correction record.",
+    "edit_procedure": "Make no assumption for Parents’ Number in College."
   },
   {
     "edit_number": 2009,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Number in College is greater than Parents' Number of Family Members.",
-    "procedure": "Assume Parent's Number in College is 1."
+    "edit_condition": "Parents' Number in College is greater than Parents' Number of Family Members.",
+    "edit_procedure": "Assume Parent's Number in College is 1."
   },
   {
     "edit_number": 2010,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents’ Number in College is greater than Parents’ Number of Family Members minus 2, Parents’ Marital Status is married, and Professional Judgment Flag is not set to 1.",
-    "procedure": "Assume Parents’ Number in College is equal to Parents’ Number of Family Members minus 2."
+    "edit_condition": "Parents’ Number in College is greater than Parents’ Number of Family Members minus 2, Parents’ Marital Status is married, and Professional Judgment Flag is not set to 1.",
+    "edit_procedure": "Assume Parents’ Number in College is equal to Parents’ Number of Family Members minus 2."
   },
   {
     "edit_number": 2011,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' AGI is blank or zero, ((Parents’ Type of Tax Return is non-blank) or (Type of Tax Return is blank and Parents’ Tax Return Status is filed or will file)), and Father's Income or Mother's Income is positive or negative.",
-    "procedure": "Assume Parents' AGI is equal to sum of Father's Income plus Mother's Income. (If sum of earnings is greater than 6 digits, use 999999 or -999999.)"
+    "edit_condition": "Parents' AGI is blank or zero, ((Parents’ Type of Tax Return is non-blank) or (Type of Tax Return is blank and Parents’ Tax Return Status is filed or will file)), and Father's Income or Mother's Income is positive or negative.",
+    "edit_procedure": "Assume Parents' AGI is equal to sum of Father's Income plus Mother's Income. (If sum of earnings is greater than 6 digits, use 999999 or -999999.)"
   },
   {
     "edit_number": 2012,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents’ AGI is re-entered as zero on a correction record.",
-    "procedure": "Make no assumption for Parents’ AGI."
+    "edit_condition": "Parents’ AGI is re-entered as zero on a correction record.",
+    "edit_procedure": "Make no assumption for Parents’ AGI."
   },
   {
     "edit_number": 2013,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' AGI is positive, Parents' Tax Return Status is will not file, and Father's Income and Mother's Income are blank or zero.",
-    "procedure": "Assume Father's Income is equal to Parents' AGI."
+    "edit_condition": "Parents' AGI is positive, Parents' Tax Return Status is will not file, and Father's Income and Mother's Income are blank or zero.",
+    "edit_procedure": "Assume Father's Income is equal to Parents' AGI."
   },
   {
     "edit_number": 2014,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Type of Tax Return is non-blank.",
-    "procedure": "Assume parents' tax filing status is tax filer."
+    "edit_condition": "Parents' Type of Tax Return is non-blank.",
+    "edit_procedure": "Assume parents' tax filing status is tax filer."
   },
   {
     "edit_number": 2015,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents’ Tax Return Status is filed or will file and Parents’ Type of Tax Return is blank.",
-    "procedure": "Assume parents’ tax filing status is tax filer."
+    "edit_condition": "Parents’ Tax Return Status is filed or will file and Parents’ Type of Tax Return is blank.",
+    "edit_procedure": "Assume parents’ tax filing status is tax filer."
   },
   {
     "edit_number": 2016,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' AGI is positive or negative, Parents' Tax Return Status is blank, and Parents’ Type of Tax Return is blank.",
-    "procedure": "Assume parents' tax filing status is tax filer."
+    "edit_condition": "Parents' AGI is positive or negative, Parents' Tax Return Status is blank, and Parents’ Type of Tax Return is blank.",
+    "edit_procedure": "Assume parents' tax filing status is tax filer."
   },
   {
     "edit_number": 2017,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Tax Return Status is will not file and Parents’ Type of Tax Return is blank.",
-    "procedure": "Assume parents' tax filing status is non-tax filer."
+    "edit_condition": "Parents' Tax Return Status is will not file and Parents’ Type of Tax Return is blank.",
+    "edit_procedure": "Assume parents' tax filing status is non-tax filer."
   },
   {
     "edit_number": 2018,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' AGI is blank or zero, Parents' Tax Return Status is blank, and Parents’ Type of Tax Return is blank.",
-    "procedure": "Assume parents' tax filing status is non-tax filer."
+    "edit_condition": "Parents' AGI is blank or zero, Parents' Tax Return Status is blank, and Parents’ Type of Tax Return is blank.",
+    "edit_procedure": "Assume parents' tax filing status is non-tax filer."
   },
   {
     "edit_number": 2019,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Taxes Paid is blank and Parents' tax filing status is tax filer.",
-    "procedure": "Assume zero for Parents' Taxes Paid."
+    "edit_condition": "Parents' Taxes Paid is blank and Parents' tax filing status is tax filer.",
+    "edit_procedure": "Assume zero for Parents' Taxes Paid."
   },
   {
     "edit_number": 2020,
     "edit_type": "Complete Assumptions",
-    "condition": "Father's Income is blank, Mother's Income is blank or zero, Parents' AGI is non-blank and non-zero, and Parent’s Marital Status is married.",
-    "procedure": "Assume Father's Income equals Parents' AGI."
+    "edit_condition": "Father's Income is blank, Mother's Income is blank or zero, Parents' AGI is non-blank and non-zero, and Parent’s Marital Status is married.",
+    "edit_procedure": "Assume Father's Income equals Parents' AGI."
   },
   {
     "edit_number": 2021,
     "edit_type": "Complete Assumptions",
-    "condition": "Mother's Income is blank, Father's Income is zero, Parents' AGI is non-blank and non-zero, and Parent’s Marital Status is married.",
-    "procedure": "Assume Mother's Income equals Parents' AGI."
+    "edit_condition": "Mother's Income is blank, Father's Income is zero, Parents' AGI is non-blank and non-zero, and Parent’s Marital Status is married.",
+    "edit_procedure": "Assume Mother's Income equals Parents' AGI."
   },
   {
     "edit_number": 2022,
     "edit_type": "Complete Assumptions",
-    "condition": "Father's Income is negative and parents' tax filing status is non-tax filer.",
-    "procedure": "Assume same positive value for Father's Income."
+    "edit_condition": "Father's Income is negative and parents' tax filing status is non-tax filer.",
+    "edit_procedure": "Assume same positive value for Father's Income."
   },
   {
     "edit_number": 2023,
     "edit_type": "Complete Assumptions",
-    "condition": "Mother's Income is negative and parents' tax filing status is non-tax filer.",
-    "procedure": "Assume same positive value for Mother's Income."
+    "edit_condition": "Mother's Income is negative and parents' tax filing status is non-tax filer.",
+    "edit_procedure": "Assume same positive value for Mother's Income."
   },
   {
     "edit_number": 2024,
     "edit_type": "Complete Assumptions",
-    "condition": "Calculate Worksheet A Total",
-    "procedure": "S et to the sum of Parents’ Education Credits, Child Support Paid, Need- Based Employment, Grant/ Scholarship Aid, Combat Pay, and Co-op Earnings. If greater than 99,999, set it to 99,999."
+    "edit_condition": "Calculate Worksheet A Total",
+    "edit_procedure": "S et to the sum of Parents’ Education Credits, Child Support Paid, Need- Based Employment, Grant/ Scholarship Aid, Combat Pay, and Co-op Earnings. If greater than 99,999, set it to 99,999."
   },
   {
     "edit_number": 2025,
     "edit_type": "Complete Assumptions",
-    "condition": "Calculate Worksheet B Total",
-    "procedure": "Set to the sum of Parents’ Pension Payments, IRA Payments, Child Support Received, Interest Income, IRA Distributions, Untaxed Pensions, Military/Clergy Allowances, Veterans Noneducation Benefits, and Other Untaxed Income. If greater than 99,999, set it to 99,999."
+    "edit_condition": "Calculate Worksheet B Total",
+    "edit_procedure": "Set to the sum of Parents’ Pension Payments, IRA Payments, Child Support Received, Interest Income, IRA Distributions, Untaxed Pensions, Military/Clergy Allowances, Veterans Noneducation Benefits, and Other Untaxed Income. If greater than 99,999, set it to 99,999."
   },
   {
     "edit_number": 2026,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents' Worksheet A Total is greater than zero, and greater than 50% of the sum* of:\n(Parents' AGI plus Parents' Worksheet B Total if Parents' Tax Filling Status is tax filer) or (Fathers Income plus Mothers Income plus Parents Worksheet B Total if Parents' Tax Filling Status is non-tax filer). * use zero if any value in the calculation is negative or blank.",
-    "procedure": "Assume zero for Parents' Worksheet A Total."
+    "edit_condition": "Parents' Worksheet A Total is greater than zero, and greater than 50% of the sum* of:\n(Parents' AGI plus Parents' Worksheet B Total if Parents' Tax Filling Status is tax filer) or (Fathers Income plus Mothers Income plus Parents Worksheet B Total if Parents' Tax Filling Status is non-tax filer). * use zero if any value in the calculation is negative or blank.",
+    "edit_procedure": "Assume zero for Parents' Worksheet A Total."
   },
   {
     "edit_number": 2027,
     "edit_type": "Complete Assumptions",
-    "condition": "Parents’ Worksheet A Total re-entered as greater than 50% of the sum of total income on a correction record.",
-    "procedure": "Make no assumption for Parents’ Worksheet A Total."
+    "edit_condition": "Parents’ Worksheet A Total re-entered as greater than 50% of the sum of total income on a correction record.",
+    "edit_procedure": "Make no assumption for Parents’ Worksheet A Total."
   },
   {
     "edit_number": 2028,
     "edit_type": "Complete Assumptions",
-    "condition": "Parent’s Asset Threshold Exceeded carried forward as No on a correction transaction, and (parents’ marital status has been corrected from married to not married or from not married to married) or (difference between age of older parent on transaction being corrected and age of older parent on correction is 3 or more years).",
-    "procedure": "Assume Parents’ Asset Threshold Exceeded is blank."
+    "edit_condition": "Parent’s Asset Threshold Exceeded carried forward as No on a correction transaction, and (parents’ marital status has been corrected from married to not married or from not married to married) or (difference between age of older parent on transaction being corrected and age of older parent on correction is 3 or more years).",
+    "edit_procedure": "Assume Parents’ Asset Threshold Exceeded is blank."
   },
   {
     "edit_number": 2029,
     "edit_type": "Student & Spouse",
-    "condition": "Citizenship is blank and Alien Registration Number is non-blank and valid.",
-    "procedure": "Assume Citizenship is eligible non-citizen."
+    "edit_condition": "Citizenship is blank and Alien Registration Number is non-blank and valid.",
+    "edit_procedure": "Assume Citizenship is eligible non-citizen."
   },
   {
     "edit_number": 2030,
     "edit_type": "Student & Spouse",
-    "condition": "Citizenship is ((blank) or (eligible non-citizen and Alien registration number is blank)) and (SSN Match Flag is 4 and SSA citizenship status code is A or blank).",
-    "procedure": "Assume Citizenship is citizen."
+    "edit_condition": "Citizenship is ((blank) or (eligible non-citizen and Alien registration number is blank)) and (SSN Match Flag is 4 and SSA citizenship status code is A or blank).",
+    "edit_procedure": "Assume Citizenship is citizen."
   },
   {
     "edit_number": 2031,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Marital Status is blank, and Student's Number of Family Members is 1.",
-    "procedure": "Assume Student's Marital Status is single."
+    "edit_condition": "Independent, Student's Marital Status is blank, and Student's Number of Family Members is 1.",
+    "edit_procedure": "Assume Student's Marital Status is single."
   },
   {
     "edit_number": 2032,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is 2, Do You Have Children is “No”, and Legal Dependents Other Than Spouse is No.",
-    "procedure": "Assume Student's Marital Status is married."
+    "edit_condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is 2, Do You Have Children is “No”, and Legal Dependents Other Than Spouse is No.",
+    "edit_procedure": "Assume Student's Marital Status is married."
   },
   {
     "edit_number": 2033,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is 2, (Do You Have Children is “Yes”) or (Legal Dependents Other Than Spouse is Yes).",
-    "procedure": "Assume Student's Marital Status is single."
+    "edit_condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is 2, (Do You Have Children is “Yes”) or (Legal Dependents Other Than Spouse is Yes).",
+    "edit_procedure": "Assume Student's Marital Status is single."
   },
   {
     "edit_number": 2034,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is 2, and Spouse's Income is non-blank and non-zero.",
-    "procedure": "Assume Student's Marital Status is married."
+    "edit_condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is 2, and Spouse's Income is non-blank and non-zero.",
+    "edit_procedure": "Assume Student's Marital Status is married."
   },
   {
     "edit_number": 2035,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is 2, and Spouse's Income is blank or zero.",
-    "procedure": "Assume Student's Marital Status is single."
+    "edit_condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is 2, and Spouse's Income is blank or zero.",
+    "edit_procedure": "Assume Student's Marital Status is single."
   },
   {
     "edit_number": 2036,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is greater than 2, and Spouse's Income is non-blank and non-zero.",
-    "procedure": "Assume Student's Marital Status is married."
+    "edit_condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is greater than 2, and Spouse's Income is non-blank and non-zero.",
+    "edit_procedure": "Assume Student's Marital Status is married."
   },
   {
     "edit_number": 2037,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is greater than 2, and Spouse's Income is blank or zero.",
-    "procedure": "Assume Student's Marital Status is single."
+    "edit_condition": "Independent, Student's Marital Status is blank, Student's Number of Family Members is greater than 2, and Spouse's Income is blank or zero.",
+    "edit_procedure": "Assume Student's Marital Status is single."
   },
   {
     "edit_number": 2038,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Number of Family Members is blank, and Student's Marital Status is married",
-    "procedure": "Assume Student's Number of Family Members is 2."
+    "edit_condition": "Independent, Student's Number of Family Members is blank, and Student's Marital Status is married",
+    "edit_procedure": "Assume Student's Number of Family Members is 2."
   },
   {
     "edit_number": 2039,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Number of Family Members is blank, and Student's Marital Status is single, separated, or divorced/widowed.",
-    "procedure": "Assume Student's Number of Family Members is 1."
+    "edit_condition": "Independent, Student's Number of Family Members is blank, and Student's Marital Status is single, separated, or divorced/widowed.",
+    "edit_procedure": "Assume Student's Number of Family Members is 1."
   },
   {
     "edit_number": 2040,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Number of Family Members is 1, Student's Marital Status is married, and Spouse's Income is non-blank and non-zero.",
-    "procedure": "Assume Student's Number of Family Members is 2."
+    "edit_condition": "Independent, Student's Number of Family Members is 1, Student's Marital Status is married, and Spouse's Income is non-blank and non-zero.",
+    "edit_procedure": "Assume Student's Number of Family Members is 2."
   },
   {
     "edit_number": 2041,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Number of Family Members is greater than 1, Student's Marital Status is not married, Do You Have Children is “No”, and Legal Dependents Other Than Spouse is “No”.",
-    "procedure": "Assume Student's Number of Family Members is 1."
+    "edit_condition": "Independent, Student's Number of Family Members is greater than 1, Student's Marital Status is not married, Do You Have Children is “No”, and Legal Dependents Other Than Spouse is “No”.",
+    "edit_procedure": "Assume Student's Number of Family Members is 1."
   },
   {
     "edit_number": 2042,
     "edit_type": "Student & Spouse",
-    "condition": "Independent and Student's Number in College is blank.",
-    "procedure": "Assume Student's Number in College is 1."
+    "edit_condition": "Independent and Student's Number in College is blank.",
+    "edit_procedure": "Assume Student's Number in College is 1."
   },
   {
     "edit_number": 2043,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Number in College is equal to Student's Number of Family Members, and both are greater than 2.",
-    "procedure": "Assume Student's Number in College is 1."
+    "edit_condition": "Independent, Student's Number in College is equal to Student's Number of Family Members, and both are greater than 2.",
+    "edit_procedure": "Assume Student's Number in College is 1."
   },
   {
     "edit_number": 2044,
     "edit_type": "Student & Spouse",
-    "condition": "Student’s Number in College and Student’s Number of Family Members re-entered as equal and both greater than 2 on a correction record.",
-    "procedure": "Make no assumption for Student’s Number in College."
+    "edit_condition": "Student’s Number in College and Student’s Number of Family Members re-entered as equal and both greater than 2 on a correction record.",
+    "edit_procedure": "Make no assumption for Student’s Number in College."
   },
   {
     "edit_number": 2045,
     "edit_type": "Student & Spouse",
-    "condition": "Student’s Asset Threshold Exceeded carried forward as No on a correction transaction, and (student’s marital status has been corrected from married to not married or from not married to married) or (age of student changed by 3 or more years).",
-    "procedure": "Assume Student’s Asset Threshold Exceeded is blank."
+    "edit_condition": "Student’s Asset Threshold Exceeded carried forward as No on a correction transaction, and (student’s marital status has been corrected from married to not married or from not married to married) or (age of student changed by 3 or more years).",
+    "edit_procedure": "Assume Student’s Asset Threshold Exceeded is blank."
   },
   {
     "edit_number": 2046,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Number in College is greater than Student's Number of Family Members.",
-    "procedure": "Assume Student's Number in College is 1."
+    "edit_condition": "Independent, Student's Number in College is greater than Student's Number of Family Members.",
+    "edit_procedure": "Assume Student's Number in College is 1."
   },
   {
     "edit_number": 2047,
     "edit_type": "Student & Spouse",
-    "condition": "Dependent, Student's Marital Status is blank.",
-    "procedure": "Assume Student's Marital Status is single."
+    "edit_condition": "Dependent, Student's Marital Status is blank.",
+    "edit_procedure": "Assume Student's Marital Status is single."
   },
   {
     "edit_number": 2048,
     "edit_type": "Student & Spouse",
-    "condition": "Dependent, Spouse's Income is non-blank and non-zero, and Student's Marital Status is single or divorced/widowed.",
-    "procedure": "Assume zero for Spouse's Income."
+    "edit_condition": "Dependent, Spouse's Income is non-blank and non-zero, and Student's Marital Status is single or divorced/widowed.",
+    "edit_procedure": "Assume zero for Spouse's Income."
   },
   {
     "edit_number": 2049,
     "edit_type": "Student & Spouse",
-    "condition": "Student's AGI is blank or zero, ((Student’s Type of Tax Return is non-blank) or (Type of Tax Return is blank and Student’s Tax Return Status is filed or will file)), and Student's Income or Spouse's Income is positive or negative.",
-    "procedure": "Assume Student's AGI is equal to Student's Income plus Spouse's Income.\n(If sum of earnings is greater than 6 digits, use 999999 or -999999.)"
+    "edit_condition": "Student's AGI is blank or zero, ((Student’s Type of Tax Return is non-blank) or (Type of Tax Return is blank and Student’s Tax Return Status is filed or will file)), and Student's Income or Spouse's Income is positive or negative.",
+    "edit_procedure": "Assume Student's AGI is equal to Student's Income plus Spouse's Income.\n(If sum of earnings is greater than 6 digits, use 999999 or -999999.)"
   },
   {
     "edit_number": 2050,
     "edit_type": "Student & Spouse",
-    "condition": "Student’s AGI re-entered as zero on a correction record.",
-    "procedure": "Make no assumption for Student’s AGI."
+    "edit_condition": "Student’s AGI re-entered as zero on a correction record.",
+    "edit_procedure": "Make no assumption for Student’s AGI."
   },
   {
     "edit_number": 2051,
     "edit_type": "Student & Spouse",
-    "condition": "Student's AGI is positive, Student's Tax Return Status is will not file, and Student's Income and Spouse's Income are blank or zero.",
-    "procedure": "Assume Student's Income is equal to Student's AGI."
+    "edit_condition": "Student's AGI is positive, Student's Tax Return Status is will not file, and Student's Income and Spouse's Income are blank or zero.",
+    "edit_procedure": "Assume Student's Income is equal to Student's AGI."
   },
   {
     "edit_number": 2052,
     "edit_type": "Student & Spouse",
-    "condition": "Student's Type of Tax Return is non-blank.",
-    "procedure": "Assume student's tax filing status is tax filer."
+    "edit_condition": "Student's Type of Tax Return is non-blank.",
+    "edit_procedure": "Assume student's tax filing status is tax filer."
   },
   {
     "edit_number": 2053,
     "edit_type": "Student & Spouse",
-    "condition": "Student’s Tax Return Status is filed or will file and Student’s Type of Tax Return is blank.",
-    "procedure": "Assume student’s tax filing status is tax filer."
+    "edit_condition": "Student’s Tax Return Status is filed or will file and Student’s Type of Tax Return is blank.",
+    "edit_procedure": "Assume student’s tax filing status is tax filer."
   },
   {
     "edit_number": 2054,
     "edit_type": "Student & Spouse",
-    "condition": "Student's AGI is positive or negative, Student's Tax Return Status is blank, and Student’s Type of Tax Return is blank.",
-    "procedure": "Assume student's tax filing status is tax filer."
+    "edit_condition": "Student's AGI is positive or negative, Student's Tax Return Status is blank, and Student’s Type of Tax Return is blank.",
+    "edit_procedure": "Assume student's tax filing status is tax filer."
   },
   {
     "edit_number": 2055,
     "edit_type": "Student & Spouse",
-    "condition": "Student's Tax Return Status is will not file and Student’s Type of Tax Return is blank.",
-    "procedure": "Assume student's tax filing status is non-tax filer."
+    "edit_condition": "Student's Tax Return Status is will not file and Student’s Type of Tax Return is blank.",
+    "edit_procedure": "Assume student's tax filing status is non-tax filer."
   },
   {
     "edit_number": 2056,
     "edit_type": "Student & Spouse",
-    "condition": "Student's AGI is blank or zero, Student's Tax Return Status is blank, and Student’s Type of Tax Return is blank.",
-    "procedure": "Assume student's tax filing status is non-tax filer."
+    "edit_condition": "Student's AGI is blank or zero, Student's Tax Return Status is blank, and Student’s Type of Tax Return is blank.",
+    "edit_procedure": "Assume student's tax filing status is non-tax filer."
   },
   {
     "edit_number": 2057,
     "edit_type": "Student & Spouse",
-    "condition": "Student's Taxes Paid is blank and student's tax filing status is tax filer.",
-    "procedure": "Assume zero for Student's Taxes Paid."
+    "edit_condition": "Student's Taxes Paid is blank and student's tax filing status is tax filer.",
+    "edit_procedure": "Assume zero for Student's Taxes Paid."
   },
   {
     "edit_number": 2058,
     "edit_type": "Student & Spouse",
-    "condition": "Dependent, Student's Income is blank, and Student's AGI is non-blank and non-zero.",
-    "procedure": "￼Assume Student's Income equals Student's AGI."
+    "edit_condition": "Dependent, Student's Income is blank, and Student's AGI is non-blank and non-zero.",
+    "edit_procedure": "￼Assume Student's Income equals Student's AGI."
   },
   {
     "edit_number": 2059,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Student's Income is blank, Spouse's Income is blank or zero, and Student's AGI is non-blank and non-zero.",
-    "procedure": "Assume Student's Income equals Student's AGI."
+    "edit_condition": "Independent, Student's Income is blank, Spouse's Income is blank or zero, and Student's AGI is non-blank and non-zero.",
+    "edit_procedure": "Assume Student's Income equals Student's AGI."
   },
   {
     "edit_number": 2060,
     "edit_type": "Student & Spouse",
-    "condition": "Student's Income is negative and student's tax filing status is non-tax filer.",
-    "procedure": "Assume same positive value for Student's Income."
+    "edit_condition": "Student's Income is negative and student's tax filing status is non-tax filer.",
+    "edit_procedure": "Assume same positive value for Student's Income."
   },
   {
     "edit_number": 2061,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Spouse’s Income is blank, Student’s Income is zero, Student’s Marital Status is married, and AGI is non-blank and non-zero.",
-    "procedure": "Assume Spouse’s Income is equal to AGI."
+    "edit_condition": "Independent, Spouse’s Income is blank, Student’s Income is zero, Student’s Marital Status is married, and AGI is non-blank and non-zero.",
+    "edit_procedure": "Assume Spouse’s Income is equal to AGI."
   },
   {
     "edit_number": 2062,
     "edit_type": "Student & Spouse",
-    "condition": "Independent, Spouse's Income is negative and student's tax filing status is non-tax filer.",
-    "procedure": "Assume same positive value for Spouse's Income."
+    "edit_condition": "Independent, Spouse's Income is negative and student's tax filing status is non-tax filer.",
+    "edit_procedure": "Assume same positive value for Spouse's Income."
   },
   {
     "edit_number": 2063,
     "edit_type": "Student & Spouse",
-    "condition": "Calculate Worksheet A Total",
-    "procedure": "Set to the sum of Student’s Education Credits, Child Support Paid, Need- Based Employment, Grant/ Scholarship Aid, Combat Pay, and Co-op Earnings. If greater than 99,999, set it to 99,999."
+    "edit_condition": "Calculate Worksheet A Total",
+    "edit_procedure": "Set to the sum of Student’s Education Credits, Child Support Paid, Need- Based Employment, Grant/ Scholarship Aid, Combat Pay, and Co-op Earnings. If greater than 99,999, set it to 99,999."
   },
   {
     "edit_number": 2064,
     "edit_type": "Student & Spouse",
-    "condition": "Calculate Worksheet B Total",
-    "procedure": "Set to the sum of Student’s Pension Payments, IRA Payments, Child Support Received, Interest Income, IRA Distributions, Untaxed Pensions, Military/Clergy Allowances, Veterans Noneducation Benefits, Other Untaxed Income, and Other Non-Reporrted Money Received. If greater than 99,999, set it to 99,999."
+    "edit_condition": "Calculate Worksheet B Total",
+    "edit_procedure": "Set to the sum of Student’s Pension Payments, IRA Payments, Child Support Received, Interest Income, IRA Distributions, Untaxed Pensions, Military/Clergy Allowances, Veterans Noneducation Benefits, Other Untaxed Income, and Other Non-Reporrted Money Received. If greater than 99,999, set it to 99,999."
   },
   {
     "edit_number": 2065,
     "edit_type": "Student & Spouse",
-    "condition": "Student's Worksheet A Total is greater than zero, and greater than 50% of the sum* of: (Student's AGI plus Student's Worksheet B Total if Student's Tax Filing Status is tax filer) or (Students Income plus Spouses Income plus Students Worksheet B Total if Student's Tax Filing Status is non-tax filer). * use zero, if any value in the calculation is negative or blank.",
-    "procedure": "Assume zero for Student's Worksheet A Total."
+    "edit_condition": "Student's Worksheet A Total is greater than zero, and greater than 50% of the sum* of: (Student's AGI plus Student's Worksheet B Total if Student's Tax Filing Status is tax filer) or (Students Income plus Spouses Income plus Students Worksheet B Total if Student's Tax Filing Status is non-tax filer). * use zero, if any value in the calculation is negative or blank.",
+    "edit_procedure": "Assume zero for Student's Worksheet A Total."
   },
   {
     "edit_number": 2066,
     "edit_type": "Student & Spouse",
-    "condition": "Student’s Worksheet A Total re-entered as greater than 50% of the sum of total income.",
-    "procedure": "nMake no assumption for Student’s Worksheet A Total."
+    "edit_condition": "Student’s Worksheet A Total re-entered as greater than 50% of the sum of total income.",
+    "edit_procedure": "nMake no assumption for Student’s Worksheet A Total."
   },
   {
     "edit_number": 3001,
     "edit_type": "Simplified Needs Test",
-    "condition": "One of parents’ SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@) or (parents’ reported AGI is blank and father’s income plus mother’s income is less than $50,000@).",
-    "procedure": "Set simplified needs."
+    "edit_condition": "One of parents’ SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@) or (parents’ reported AGI is blank and father’s income plus mother’s income is less than $50,000@).",
+    "edit_procedure": "Set simplified needs."
   },
   {
     "edit_number": 3002,
     "edit_type": "Simplified Needs Test",
-    "condition": "Parents’ type of tax return is 1040A/EZ or Trust Territory (2 or 4), parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@.",
-    "procedure": "Set simplified needs."
+    "edit_condition": "Parents’ type of tax return is 1040A/EZ or Trust Territory (2 or 4), parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@.",
+    "edit_procedure": "Set simplified needs."
   },
   {
     "edit_number": 3003,
     "edit_type": "Simplified Needs Test",
-    "condition": "Parents’ tax return status is will not file, parents’ type of tax return is blank, and father’s income plus mother’s income is less than $50,000@.",
-    "procedure": "Set simplified needs."
+    "edit_condition": "Parents’ tax return status is will not file, parents’ type of tax return is blank, and father’s income plus mother’s income is less than $50,000@.",
+    "edit_procedure": "Set simplified needs."
   },
   {
     "edit_number": 3004,
     "edit_type": "Simplified Needs Test",
-    "condition": "Parents’ eligible for 1040A is Yes, parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@.",
-    "procedure": "Set simplified needs."
+    "edit_condition": "Parents’ eligible for 1040A is Yes, parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@.",
+    "edit_procedure": "Set simplified needs."
   },
   {
     "edit_number": 3005,
     "edit_type": "Simplified Needs Test",
-    "condition": "One of parents’ SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less) or (parents’ reported AGI is blank and father’s income plus mother’s income is $24,000@ or less).",
-    "procedure": "Set Automatic Zero EFC flag."
+    "edit_condition": "One of parents’ SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less) or (parents’ reported AGI is blank and father’s income plus mother’s income is $24,000@ or less).",
+    "edit_procedure": "Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3006,
     "edit_type": "Simplified Needs Test",
-    "condition": "Parents’ type of tax return is 1040A/EZ or Trust Territory (2 or 4), parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
-    "procedure": "Set Automatic Zero EFC flag."
+    "edit_condition": "Parents’ type of tax return is 1040A/EZ or Trust Territory (2 or 4), parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
+    "edit_procedure": "Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3007,
     "edit_type": "Simplified Needs Test",
-    "condition": "Parents’ tax return status is will not file, parents’ type of tax return is blank, and father’s income plus mother’s income is $24,000@ or less.",
-    "procedure": "Set Automatic Zero EFC flag."
+    "edit_condition": "Parents’ tax return status is will not file, parents’ type of tax return is blank, and father’s income plus mother’s income is $24,000@ or less.",
+    "edit_procedure": "Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3008,
     "edit_type": "Simplified Needs Test",
-    "condition": "Parents’ eligible for 1040A is Yes, parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
-    "procedure": "Set Automatic Zero EFC flag."
+    "edit_condition": "Parents’ eligible for 1040A is Yes, parents’ reported AGI is non-blank, and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
+    "edit_procedure": "Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3009,
     "edit_type": "Simplified Needs Test",
-    "condition": "One of student’s SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@) or (student’s reported AGI is blank and student’s income plus spouse’s income is less than $50,000@).",
-    "procedure": "Set simplified needs."
+    "edit_condition": "One of student’s SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@) or (student’s reported AGI is blank and student’s income plus spouse’s income is less than $50,000@).",
+    "edit_procedure": "Set simplified needs."
   },
   {
     "edit_number": 3010,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s type of tax return is 1040A/EZ or Trust Territory (2 or 4) and student’s reported AGI is non- blank and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@",
-    "procedure": "Set simplified needs."
+    "edit_condition": "Student’s type of tax return is 1040A/EZ or Trust Territory (2 or 4) and student’s reported AGI is non- blank and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@",
+    "edit_procedure": "Set simplified needs."
   },
   {
     "edit_number": 3011,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s tax return status is will not file, student’s type of tax return is blank, and student’s income plus spouse’s income is less than $50,000@.",
-    "procedure": "Set simplified needs."
+    "edit_condition": "Student’s tax return status is will not file, student’s type of tax return is blank, and student’s income plus spouse’s income is less than $50,000@.",
+    "edit_procedure": "Set simplified needs."
   },
   {
     "edit_number": 3012,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student eligible for 1040A is Yes, student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@.",
-    "procedure": "Set simplified needs."
+    "edit_condition": "Student eligible for 1040A is Yes, student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is less than $50,000@.",
+    "edit_procedure": "Set simplified needs."
   },
   {
     "edit_number": 3013,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s marital status is married, student’s number of family members is greater than 2, one of student’s SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less) or (student’s reported AGI is blank and student’s income plus spouse’s income is $24,000@ or less).",
-    "procedure": "Set Automatic Zero EFC flag."
+    "edit_condition": "Student’s marital status is married, student’s number of family members is greater than 2, one of student’s SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less) or (student’s reported AGI is blank and student’s income plus spouse’s income is $24,000@ or less).",
+    "edit_procedure": "Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3014,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s marital status is married, student’s number of family members is greater than 2, one of student’s SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less) or (student’s reported AGI is blank and student’s income plus spouse’s income is $24,000@ or less).",
-    "procedure": "￼Set Automatic Zero EFC flag."
+    "edit_condition": "Student’s marital status is married, student’s number of family members is greater than 2, one of student’s SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less) or (student’s reported AGI is blank and student’s income plus spouse’s income is $24,000@ or less).",
+    "edit_procedure": "￼Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3015,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s marital status is married, student’s number of family members is greater than 2, student’s type of tax return is 1040A/EZ or Trust Territory (2 or 4), and student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
-    "procedure": "￼Set Automatic Zero EFC flag."
+    "edit_condition": "Student’s marital status is married, student’s number of family members is greater than 2, student’s type of tax return is 1040A/EZ or Trust Territory (2 or 4), and student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
+    "edit_procedure": "￼Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3016,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s marital status is married, student’s number of family members is greater than 2, student’s tax return status is will not file, student’s type of tax return is blank, and student’s income plus spouse’s income is $24,000@ or less.",
-    "procedure": "￼Set Automatic Zero EFC flag."
+    "edit_condition": "Student’s marital status is married, student’s number of family members is greater than 2, student’s tax return status is will not file, student’s type of tax return is blank, and student’s income plus spouse’s income is $24,000@ or less.",
+    "edit_procedure": "￼Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3017,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s marital status is married, student’s number of family members is greater than 2, student eligible for 1040A is Yes, student’s reported AGI is non- blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
-    "procedure": "￼Set Automatic Zero EFC flag."
+    "edit_condition": "Student’s marital status is married, student’s number of family members is greater than 2, student eligible for 1040A is Yes, student’s reported AGI is non- blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
+    "edit_procedure": "￼Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3018,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s marital status is single, separated, or divorced/widowed, student’s number of family members is greater than 1, one of student’s SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less) or (student’s reported AGI is blank and student’s income plus spouse’s income is $24,000@ or less).",
-    "procedure": "￼Set Automatic Zero EFC flag."
+    "edit_condition": "Student’s marital status is single, separated, or divorced/widowed, student’s number of family members is greater than 1, one of student’s SSI, SNAP, Free/Reduced Price Lunch, TANF, WIC or Dislocated Worker is Yes, and (student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less) or (student’s reported AGI is blank and student’s income plus spouse’s income is $24,000@ or less).",
+    "edit_procedure": "￼Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3019,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s marital status is single, separated, or divorced/widowed, student’s number of family members is greater than 1, student’s type of tax return is 1040A/EZ or Trust Territory (2 or 4), and student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
-    "procedure": "￼Set Automatic Zero EFC flag."
+    "edit_condition": "Student’s marital status is single, separated, or divorced/widowed, student’s number of family members is greater than 1, student’s type of tax return is 1040A/EZ or Trust Territory (2 or 4), and student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
+    "edit_procedure": "￼Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3020,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s marital status is single, separated, or divorced/widowed, student’s number of family members is greater than 1, student’s tax return status is will not file, student’s type of tax return is blank, and student’s income is $24,000@ or less.",
-    "procedure": "￼Set Automatic Zero EFC flag."
+    "edit_condition": "Student’s marital status is single, separated, or divorced/widowed, student’s number of family members is greater than 1, student’s tax return status is will not file, student’s type of tax return is blank, and student’s income is $24,000@ or less.",
+    "edit_procedure": "￼Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 3021,
     "edit_type": "Simplified Needs Test",
-    "condition": "Student’s marital status is single, separated, or divorced/widowed, student’s number of family members is greater than 1, student eligible for 1040A is Yes, and student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
-    "procedure": "￼Set Automatic Zero EFC flag."
+    "edit_condition": "Student’s marital status is single, separated, or divorced/widowed, student’s number of family members is greater than 1, student eligible for 1040A is Yes, and student’s reported AGI is non-blank and assumed AGI (or reported AGI if no assumption has been made) is $24,000@ or less.",
+    "edit_procedure": "￼Set Automatic Zero EFC flag."
   },
   {
     "edit_number": 4064,
     "edit_type": "Complete Reject Edits",
-    "condition": "NSLDS Fraud Loan Flag is set to Y.",
-    "procedure": "￼Set reject reason 24."
+    "edit_condition": "NSLDS Fraud Loan Flag is set to Y.",
+    "edit_procedure": "￼Set reject reason 24."
   },
   {
     "edit_number": 4001,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, and reported values for Parents' AGI, Father's Income, Mother's Income, and Parents' Worksheet B Total are all blank",
-    "procedure": "￼Set reject reason 2."
+    "edit_condition": "Dependent, and reported values for Parents' AGI, Father's Income, Mother's Income, and Parents' Worksheet B Total are all blank",
+    "edit_procedure": "￼Set reject reason 2."
   },
   {
     "edit_number": 4002,
     "edit_type": "Complete Reject Edits",
-    "condition": "Independent, and reported values for Student's AGI, Student's Income, Spouse's Income, and Student's Worksheet B Total are all blank.",
-    "procedure": "￼Set reject reason 2."
+    "edit_condition": "Independent, and reported values for Student's AGI, Student's Income, Spouse's Income, and Student's Worksheet B Total are all blank.",
+    "edit_procedure": "￼Set reject reason 2."
   },
   {
     "edit_number": 4003,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, simplified needs test is not met, automatic zero EFC flag is not set, Parents’ Asset Threshold Exceeded is Yes or blank, and any one of reported values for supplemental data fields for parent and student are blank. Supplemental data is defined as follows: Parents'/Student's Cash, Savings and Checking, Parents'/Student's Real Estate/Investment Net Worth, Parents'/Student's Business/Farm Net Worth",
-    "procedure": "￼Set reject reason 1."
+    "edit_condition": "Dependent, simplified needs test is not met, automatic zero EFC flag is not set, Parents’ Asset Threshold Exceeded is Yes or blank, and any one of reported values for supplemental data fields for parent and student are blank. Supplemental data is defined as follows: Parents'/Student's Cash, Savings and Checking, Parents'/Student's Real Estate/Investment Net Worth, Parents'/Student's Business/Farm Net Worth",
+    "edit_procedure": "￼Set reject reason 1."
   },
   {
     "edit_number": 4004,
     "edit_type": "Complete Reject Edits",
-    "condition": "Independent, simplified needs test is not met, automatic zero EFC flag not set, Student’s Asset Threshold Exceeded is Yes or blank, and any one of reported data for supplemental data fields for students are blank. Supplemental data is defined as follows: Student's Cash, Savings and Checking, Student's Real, Estate/Investment Net Worth, Student's Business/Farm Net Worth. ",
-    "procedure": "￼Set reject reason 1."
+    "edit_condition": "Independent, simplified needs test is not met, automatic zero EFC flag not set, Student’s Asset Threshold Exceeded is Yes or blank, and any one of reported data for supplemental data fields for students are blank. Supplemental data is defined as follows: Student's Cash, Savings and Checking, Student's Real, Estate/Investment Net Worth, Student's Business/Farm Net Worth. ",
+    "edit_procedure": "￼Set reject reason 1."
   },
   {
     "edit_number": 4005,
     "edit_type": "Complete Reject Edits",
-    "condition": "Citizenship is blank or not eligible.",
-    "procedure": "￼Set reject reason 17."
+    "edit_condition": "Citizenship is blank or not eligible.",
+    "edit_procedure": "￼Set reject reason 17."
   },
   {
     "edit_number": 4006,
     "edit_type": "Complete Reject Edits",
-    "condition": "First Name and Last Name are blank.",
-    "procedure": "￼Set reject reason 13."
+    "edit_condition": "First Name and Last Name are blank.",
+    "edit_procedure": "￼Set reject reason 13."
   },
   {
     "edit_number": 4007,
     "edit_type": "Complete Reject Edits",
-    "condition": "One of First Name or Last Name is blank.",
-    "procedure": "￼Set reject reason N."
+    "edit_condition": "One of First Name or Last Name is blank.",
+    "edit_procedure": "￼Set reject reason N."
   },
   {
     "edit_number": 4008,
     "edit_type": "Complete Reject Edits",
-    "condition": "One of First Name or Last Name is re-entered as blank on a correction record",
-    "procedure": "￼Set reject reason N."
+    "edit_condition": "One of First Name or Last Name is re-entered as blank on a correction record",
+    "edit_procedure": "￼Set reject reason N."
   },
   {
     "edit_number": 4009,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student SSN Match Flag equals 1 or 6.",
-    "procedure": "￼Set reject reason 18."
+    "edit_condition": "Student SSN Match Flag equals 1 or 6.",
+    "edit_procedure": "￼Set reject reason 18."
   },
   {
     "edit_number": 4010,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student SSN Match Flag equals 2.",
-    "procedure": "￼Set reject reason R."
+    "edit_condition": "Student SSN Match Flag equals 2.",
+    "edit_procedure": "￼Set reject reason R."
   },
   {
     "edit_number": 4011,
     "edit_type": "Complete Reject Edits",
-    "condition": "Date of Birth is re-entered as same value on a correction record.",
-    "procedure": "￼Suppress reject R."
+    "edit_condition": "Date of Birth is re-entered as same value on a correction record.",
+    "edit_procedure": "￼Suppress reject R."
   },
   {
     "edit_number": 4012,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student SSN Match Flag equals 3.",
-    "procedure": "￼Set reject reason D."
+    "edit_condition": "Student SSN Match Flag equals 3.",
+    "edit_procedure": "￼Set reject reason D."
   },
   {
     "edit_number": 4013,
     "edit_type": "Complete Reject Edits",
-    "condition": "First and Last Name are re-entered as same value on a correction record.",
-    "procedure": "￼Suppress reject D."
+    "edit_condition": "First and Last Name are re-entered as same value on a correction record.",
+    "edit_procedure": "￼Suppress reject D."
   },
   {
     "edit_number": 4014,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student SSN Match Flag equals 5.",
-    "procedure": "￼Set reject reason 8."
+    "edit_condition": "Student SSN Match Flag equals 5.",
+    "edit_procedure": "￼Set reject reason 8."
   },
   {
     "edit_number": 4015,
     "edit_type": "Complete Reject Edits",
-    "condition": "Date of Birth is blank or day is out of range.",
-    "procedure": "￼Set reject reason 5."
+    "edit_condition": "Date of Birth is blank or day is out of range.",
+    "edit_procedure": "￼Set reject reason 5."
   },
   {
     "edit_number": 4016,
     "edit_type": "Complete Reject Edits",
-    "condition": "Date of Birth year is equal to 1900 through 1938 and Student SSN Match Flag is not equal to 4.",
-    "procedure": "￼Set reject reason A."
+    "edit_condition": "Date of Birth year is equal to 1900 through 1938 and Student SSN Match Flag is not equal to 4.",
+    "edit_procedure": "￼Set reject reason A."
   },
   {
     "edit_number": 4017,
     "edit_type": "Complete Reject Edits",
-    "condition": "Date of Birth year is re-entered as same value of 1900 through 1938 on a correction record.",
-    "procedure": "￼Suppress reject A."
+    "edit_condition": "Date of Birth year is re-entered as same value of 1900 through 1938 on a correction record.",
+    "edit_procedure": "￼Suppress reject A."
   },
   {
     "edit_number": 4018,
     "edit_type": "Complete Reject Edits",
-    "condition": "Independent, Date of Birth is 09/01/97 or greater and not out of range, answer to Orphan or Ward is 'No' or blank, and Student SSN Match Flag is not equal to 4",
-    "procedure": "￼Set reject reason B."
+    "edit_condition": "Independent, Date of Birth is 09/01/97 or greater and not out of range, answer to Orphan or Ward is 'No' or blank, and Student SSN Match Flag is not equal to 4",
+    "edit_procedure": "￼Set reject reason B."
   },
   {
     "edit_number": 4019,
     "edit_type": "Complete Reject Edits",
-    "condition": "Date of Birth is re-entered as same value on a correction record",
-    "procedure": "￼Suppress reject B."
+    "edit_condition": "Date of Birth is re-entered as same value on a correction record",
+    "edit_procedure": "￼Suppress reject B."
   },
   {
     "edit_number": 4020,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Parents’ Taxes Paid is greater than zero and equal to or greater than Parents’ AGI, and Parents’ IRS Data Field flag for AGI or taxes paid is not equal to 1.",
-    "procedure": "￼Set reject reason 12."
+    "edit_condition": "Dependent, Parents’ Taxes Paid is greater than zero and equal to or greater than Parents’ AGI, and Parents’ IRS Data Field flag for AGI or taxes paid is not equal to 1.",
+    "edit_procedure": "￼Set reject reason 12."
   },
   {
     "edit_number": 4021,
     "edit_type": "Complete Reject Edits",
-    "condition": "Reject 12 override code is set by Financial Aid Administrator. ",
-    "procedure": "￼Suppress reject 12."
+    "edit_condition": "Reject 12 override code is set by Financial Aid Administrator. ",
+    "edit_procedure": "￼Suppress reject 12."
   },
   {
     "edit_number": 4022,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student’s Taxes Paid is greater than zero and equal to or greater than Student’s AGI, and Student’s IRS Data Field flag for AGI or taxes paid is not equal to 1. Set reject reason 3.",
-    "procedure": "￼Set reject reason 3."
+    "edit_condition": "Student’s Taxes Paid is greater than zero and equal to or greater than Student’s AGI, and Student’s IRS Data Field flag for AGI or taxes paid is not equal to 1. Set reject reason 3.",
+    "edit_procedure": "￼Set reject reason 3."
   },
   {
     "edit_number": 4023,
     "edit_type": "Complete Reject Edits",
-    "condition": "Reject 3 override code is set by Financial Aid Administrator. ",
-    "procedure": "￼Suppress reject 3."
+    "edit_condition": "Reject 3 override code is set by Financial Aid Administrator. ",
+    "edit_procedure": "￼Suppress reject 3."
   },
   {
     "edit_number": 4024,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Parents’ Taxes Paid is greater than zero, not equal to or greater than Parents’ AGI, greater than or equal to 40% of Parents’ AGI, Parents’ IRS Data Field flag for AGI or taxes paid is not equal to 1, and Professional Judgment Flag is not set to 1.",
-    "procedure": "￼Set reject reason C."
+    "edit_condition": "Dependent, Parents’ Taxes Paid is greater than zero, not equal to or greater than Parents’ AGI, greater than or equal to 40% of Parents’ AGI, Parents’ IRS Data Field flag for AGI or taxes paid is not equal to 1, and Professional Judgment Flag is not set to 1.",
+    "edit_procedure": "￼Set reject reason C."
   },
   {
     "edit_number": 4025,
     "edit_type": "Complete Reject Edits",
-    "condition": "Parents’ AGI and Taxes Paid is re-entered as same value on a correction record.",
-    "procedure": "￼Suppress reject C."
+    "edit_condition": "Parents’ AGI and Taxes Paid is re-entered as same value on a correction record.",
+    "edit_procedure": "￼Suppress reject C."
   },
   {
     "edit_number": 4026,
     "edit_type": "Complete Reject Edits",
-    "condition": "Independent, Student’s Taxes Paid is greater than zero, not equal to or greater than Student’s AGI, greater than or equal to 40% of Student’s AGI, Student’s IRS Data Field flag for AGI or taxes paid is not equal to 1, and Professional Judgment Flag is not set to 1. ",
-    "procedure": "￼Set reject reason C."
+    "edit_condition": "Independent, Student’s Taxes Paid is greater than zero, not equal to or greater than Student’s AGI, greater than or equal to 40% of Student’s AGI, Student’s IRS Data Field flag for AGI or taxes paid is not equal to 1, and Professional Judgment Flag is not set to 1. ",
+    "edit_procedure": "￼Set reject reason C."
   },
   {
     "edit_number": 4027,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student’s AGI and Taxes Paid is re-entered as same value on a correction record.",
-    "procedure": "￼ Suppress reject C."
+    "edit_condition": "Student’s AGI and Taxes Paid is re-entered as same value on a correction record.",
+    "edit_procedure": "￼ Suppress reject C."
   },
   {
     "edit_number": 4028,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Student’s Taxes Paid is greater than zero, not equal to or greater than Student’s AGI, greater than or equal to 40% of Student’s AGI, Student’s IRS Data Field flag for AGI or taxes paid is not equal to 1, and Professional Judgment Flag is not set to 1.",
-    "procedure": "￼Set reject reason G."
+    "edit_condition": "Dependent, Student’s Taxes Paid is greater than zero, not equal to or greater than Student’s AGI, greater than or equal to 40% of Student’s AGI, Student’s IRS Data Field flag for AGI or taxes paid is not equal to 1, and Professional Judgment Flag is not set to 1.",
+    "edit_procedure": "￼Set reject reason G."
   },
   {
     "edit_number": 4029,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student’s AGI and Taxes Paid is re-entered as same value on a correction record.",
-    "procedure": "￼ Suppress reject G."
+    "edit_condition": "Student’s AGI and Taxes Paid is re-entered as same value on a correction record.",
+    "edit_procedure": "￼ Suppress reject G."
   },
   {
     "edit_number": 4030,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Parents’ Tax Return Status is Will not file, Parents’ Marital Status is single, separated/divorced, or widowed, and Father’s Income or Mother’s Income is greater than $12,500@.",
-    "procedure": "￼Set reject reason 20."
+    "edit_condition": "Dependent, Parents’ Tax Return Status is Will not file, Parents’ Marital Status is single, separated/divorced, or widowed, and Father’s Income or Mother’s Income is greater than $12,500@.",
+    "edit_procedure": "￼Set reject reason 20."
   },
   {
     "edit_number": 4031,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Parents’ Tax Return Status is Will not file, Parents’ Marital Status is married, and Father’s Income plus Mother’s Income is greater than $19,500@.",
-    "procedure": "￼Set reject reason 20."
+    "edit_condition": "Dependent, Parents’ Tax Return Status is Will not file, Parents’ Marital Status is married, and Father’s Income plus Mother’s Income is greater than $19,500@.",
+    "edit_procedure": "￼Set reject reason 20."
   },
   {
     "edit_number": 4032,
     "edit_type": "Complete Reject Edits",
-    "condition": "Independent, Student’s Tax Return Status is Will not file, Student’s Marital Status is single, separated, or divorced/widowed, Number of Family Members is 1, and Student’s Income is greater than $9,750@.",
-    "procedure": "￼Set reject reason 20."
+    "edit_condition": "Independent, Student’s Tax Return Status is Will not file, Student’s Marital Status is single, separated, or divorced/widowed, Number of Family Members is 1, and Student’s Income is greater than $9,750@.",
+    "edit_procedure": "￼Set reject reason 20."
   },
   {
     "edit_number": 4033,
     "edit_type": "Complete Reject Edits",
-    "condition": "Independent, Student’s Tax Return Status is Will not file, Student’s Marital Status is single, separated, or divorced/widowed, Number of Family Members is greater than 1, and Student’s Income is greater than $12,500@.",
-    "procedure": "￼Set reject reason 20."
+    "edit_condition": "Independent, Student’s Tax Return Status is Will not file, Student’s Marital Status is single, separated, or divorced/widowed, Number of Family Members is greater than 1, and Student’s Income is greater than $12,500@.",
+    "edit_procedure": "￼Set reject reason 20."
   },
   {
     "edit_number": 4034,
     "edit_type": "Complete Reject Edits",
-    "condition": "Independent, Student’s Tax Return Status is Will not file, Student’s Marital Status is married, and Student’s Income plus Spouse’s Income is greater than $19,500@.",
-    "procedure": "￼Set reject reason 20."
+    "edit_condition": "Independent, Student’s Tax Return Status is Will not file, Student’s Marital Status is married, and Student’s Income plus Spouse’s Income is greater than $19,500@.",
+    "edit_procedure": "￼Set reject reason 20."
   },
   {
     "edit_number": 4035,
     "edit_type": "Complete Reject Edits",
-    "condition": "Reject 20 override code is set by Financial Aid Administrator.",
-    "procedure": "￼Suppress reject reason 20."
+    "edit_condition": "Reject 20 override code is set by Financial Aid Administrator.",
+    "edit_procedure": "￼Suppress reject reason 20."
   },
   {
     "edit_number": 4036,
     "edit_type": "Complete Reject Edits",
-    "condition": "036 Dependent, Parents' Marital Status is blank, and Parents' Number of Family Members is blank or 01.",
-    "procedure": "￼Set reject reason 10."
+    "edit_condition": "036 Dependent, Parents' Marital Status is blank, and Parents' Number of Family Members is blank or 01.",
+    "edit_procedure": "￼Set reject reason 10."
   },
   {
     "edit_number": 4037,
     "edit_type": "Complete Reject Edits",
-    "condition": "Independent, Student's Marital Status is blank, and Student's Family Members is blank.",
-    "procedure": "￼Set reject reason 10."
+    "edit_condition": "Independent, Student's Marital Status is blank, and Student's Family Members is blank.",
+    "edit_procedure": "￼Set reject reason 10."
   },
   {
     "edit_number": 4038,
     "edit_type": "Complete Reject Edits",
-    "condition": "Application transaction and Student’s Marital Status Date is non-blank and (greater than the Date Completed if Date Completed is non-blank) or (greater than application receipt date if Date Completed is blank), or Correction transaction and Student’s Marital Status Date is non-blank and greater than transaction receipt date.",
-    "procedure": "￼Set reject reason 4."
+    "edit_condition": "Application transaction and Student’s Marital Status Date is non-blank and (greater than the Date Completed if Date Completed is non-blank) or (greater than application receipt date if Date Completed is blank), or Correction transaction and Student’s Marital Status Date is non-blank and greater than transaction receipt date.",
+    "edit_procedure": "￼Set reject reason 4."
   },
   {
     "edit_number": 4039,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student’s Marital Status Date is corrected to date that is greater than or equal to application receipt date and less than or equal to transaction receipt date.",
-    "procedure": "￼Set reject reason 21."
+    "edit_condition": "Student’s Marital Status Date is corrected to date that is greater than or equal to application receipt date and less than or equal to transaction receipt date.",
+    "edit_procedure": "￼Set reject reason 21."
   },
   {
     "edit_number": 4040,
     "edit_type": "Complete Reject Edits",
-    "condition": "Reject 21 override code is set by Financial Aid Administrator",
-    "procedure": "￼Suppress reject 21."
+    "edit_condition": "Reject 21 override code is set by Financial Aid Administrator",
+    "edit_procedure": "￼Suppress reject 21."
   },
   {
     "edit_number": 4041,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Parents' Number of Family Members is 15 or more, and Professional Judgment Flag is not set to 1.",
-    "procedure": "￼Set reject reason W."
+    "edit_condition": "Dependent, Parents' Number of Family Members is 15 or more, and Professional Judgment Flag is not set to 1.",
+    "edit_procedure": "￼Set reject reason W."
   },
   {
     "edit_number": 4042,
     "edit_type": "Complete Reject Edits",
-    "condition": "Parents’ Number of Family Members is re-entered as the same value on a correction record.",
-    "procedure": "￼ Suppress reject W."
+    "edit_condition": "Parents’ Number of Family Members is re-entered as the same value on a correction record.",
+    "edit_procedure": "￼ Suppress reject W."
   },
   {
     "edit_number": 4043,
     "edit_type": "Complete Reject Edits",
-    "condition": "Independent, Student's Number of Family Members is 15 or more, and Professional Judgment Flag is not set to 1.",
-    "procedure": "￼Set reject reason W."
+    "edit_condition": "Independent, Student's Number of Family Members is 15 or more, and Professional Judgment Flag is not set to 1.",
+    "edit_procedure": "￼Set reject reason W."
   },
   {
     "edit_number": 4044,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student’s Number of Family Members is re-entered as the same value on a correction record.",
-    "procedure": "Suppress reject W."
+    "edit_condition": "Student’s Number of Family Members is re-entered as the same value on a correction record.",
+    "edit_procedure": "Suppress reject W."
   },
   {
     "edit_number": 4045,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Father's Income and Mother's Income are both non-zero and non-blank, Parents' Marital Status is single, separated/divorced, or widowed, and Professional Judgment Flag is not set to 1.",
-    "procedure": "￼Set reject reason 11."
+    "edit_condition": "Dependent, Father's Income and Mother's Income are both non-zero and non-blank, Parents' Marital Status is single, separated/divorced, or widowed, and Professional Judgment Flag is not set to 1.",
+    "edit_procedure": "￼Set reject reason 11."
   },
   {
     "edit_number": 4046,
     "edit_type": "Complete Reject Edits",
-    "condition": "Professional Judgment Flag is not set to 1",
-    "procedure": "￼Set reject reason 11."
+    "edit_condition": "Professional Judgment Flag is not set to 1",
+    "edit_procedure": "￼Set reject reason 11."
   },
   {
     "edit_number": 4047,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent and parent did not sign application",
-    "procedure": "￼Set reject reason 15."
+    "edit_condition": "Dependent and parent did not sign application",
+    "edit_procedure": "￼Set reject reason 15."
   },
   {
     "edit_number": 4048,
     "edit_type": "Complete Reject Edits",
-    "condition": "Student did not sign application.",
-    "procedure": "￼Set reject reason 14."
+    "edit_condition": "Student did not sign application.",
+    "edit_procedure": "￼Set reject reason 14."
   },
   {
     "edit_number": 4049,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent and (any one of Father’s SSN, Last Name and Date of Birth is blank) and (any one of Mother’s SSN, Last Name and Date of Birth is blank).",
-    "procedure": "￼Set reject reason 9."
+    "edit_condition": "Dependent and (any one of Father’s SSN, Last Name and Date of Birth is blank) and (any one of Mother’s SSN, Last Name and Date of Birth is blank).",
+    "edit_procedure": "￼Set reject reason 9."
   },
   {
     "edit_number": 4050,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Father’s SSN Match Flag is equal to 1 or 6 and Mother’s SSN Match Flag is not equal to 4.",
-    "procedure": "￼Set reject reason 6."
+    "edit_condition": "Dependent, Father’s SSN Match Flag is equal to 1 or 6 and Mother’s SSN Match Flag is not equal to 4.",
+    "edit_procedure": "￼Set reject reason 6."
   },
   {
     "edit_number": 4051,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Mother’s SSN Match Flag is equal to 1 or 6 and Father’s SSN Match Flag is not equal to 4.",
-    "procedure": "￼Set reject reason 7."
+    "edit_condition": "Dependent, Mother’s SSN Match Flag is equal to 1 or 6 and Father’s SSN Match Flag is not equal to 4.",
+    "edit_procedure": "￼Set reject reason 7."
   },
   {
     "edit_number": 4052,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Father’s SSN Match Flag is equal to 2 and Mother’s SSN Match Flag is not equal to 4.",
-    "procedure": "￼Set reject reason S."
+    "edit_condition": "Dependent, Father’s SSN Match Flag is equal to 2 and Mother’s SSN Match Flag is not equal to 4.",
+    "edit_procedure": "￼Set reject reason S."
   },
   {
     "edit_number": 4053,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent and Father’s Date of Birth is re-entered as same value on a correction record.",
-    "procedure": "￼Set reject reason S."
+    "edit_condition": "Dependent and Father’s Date of Birth is re-entered as same value on a correction record.",
+    "edit_procedure": "￼Set reject reason S."
   },
   {
     "edit_number": 4054,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Mother’s SSN Match Flag is equal to 2 and Father’s SSN Match Flag is not equal to 4.",
-    "procedure": "￼Set reject reason T."
+    "edit_condition": "Dependent, Mother’s SSN Match Flag is equal to 2 and Father’s SSN Match Flag is not equal to 4.",
+    "edit_procedure": "￼Set reject reason T."
   },
   {
     "edit_number": 4055,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent and Mother’s Date of Birth is re-entered as same value on a correction record.",
-    "procedure": "￼Set reject reason T."
+    "edit_condition": "Dependent and Mother’s Date of Birth is re-entered as same value on a correction record.",
+    "edit_procedure": "￼Set reject reason T."
   },
   {
     "edit_number": 4056,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Father’s SSN Match Flag is equal to 3 and Mother’s SSN Match Flag is not equal to 4.",
-    "procedure": "￼Set reject reason E."
+    "edit_condition": "Dependent, Father’s SSN Match Flag is equal to 3 and Mother’s SSN Match Flag is not equal to 4.",
+    "edit_procedure": "￼Set reject reason E."
   },
   {
     "edit_number": 4057,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent and Father’s Last Name and First Initial are re-entered as same value on a correction record.",
-    "procedure": "￼Suppress reject E."
+    "edit_condition": "Dependent and Father’s Last Name and First Initial are re-entered as same value on a correction record.",
+    "edit_procedure": "￼Suppress reject E."
   },
   {
     "edit_number": 4058,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Mother’s SSN Match Flag is equal to 3 and Father’s SSN Match Flag is not equal to 4.",
-    "procedure": "￼Suppress reject F."
+    "edit_condition": "Dependent, Mother’s SSN Match Flag is equal to 3 and Father’s SSN Match Flag is not equal to 4.",
+    "edit_procedure": "￼Suppress reject F."
   },
   {
     "edit_number": 4059,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent and Mother’s Last Name and First Initial are re-entered as same value on a correction record.",
-    "procedure": "￼Suppress reject F."
+    "edit_condition": "Dependent and Mother’s Last Name and First Initial are re-entered as same value on a correction record.",
+    "edit_procedure": "￼Suppress reject F."
   },
   {
     "edit_number": 4060,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Father’s SSN is all zeroes, Mother’s SSN is blank or all zeroes, Parents’ Tax Return Status is filed or will file, and Type of Tax Return is not foreign.",
-    "procedure": "￼Set reject reason J."
+    "edit_condition": "Dependent, Father’s SSN is all zeroes, Mother’s SSN is blank or all zeroes, Parents’ Tax Return Status is filed or will file, and Type of Tax Return is not foreign.",
+    "edit_procedure": "￼Set reject reason J."
   },
   {
     "edit_number": 4061,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent and Father’s SSN is re-entered as same value on a correction record.",
-    "procedure": "￼Suppress reject J."
+    "edit_condition": "Dependent and Father’s SSN is re-entered as same value on a correction record.",
+    "edit_procedure": "￼Suppress reject J."
   },
   {
     "edit_number": 4062,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent, Mother’s SSN is all zeroes, Father’s SSN is blank or all zeroes, Parents’ Tax Return Status is filed or will file, and Type of Tax Return is not foreign.",
-    "procedure": "￼Set reject reason K."
+    "edit_condition": "Dependent, Mother’s SSN is all zeroes, Father’s SSN is blank or all zeroes, Parents’ Tax Return Status is filed or will file, and Type of Tax Return is not foreign.",
+    "edit_procedure": "￼Set reject reason K."
   },
   {
     "edit_number": 4063,
     "edit_type": "Complete Reject Edits",
-    "condition": "Dependent and Mother’s SSN is re-entered as same value on a correction record.",
-    "procedure": "￼Suppress reject K."
+    "edit_condition": "Dependent and Mother’s SSN is re-entered as same value on a correction record.",
+    "edit_procedure": "￼Suppress reject K."
   },
   {
     "edit_number": 5001,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is D.",
-    "procedure": "￼Use Formula #1."
+    "edit_condition": "If model is D.",
+    "edit_procedure": "￼Use Formula #1."
   },
   {
     "edit_number": 5002,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is less than or equal to 2.",
-    "procedure": "￼Use Formula #2."
+    "edit_condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is less than or equal to 2.",
+    "edit_procedure": "￼Use Formula #2."
   },
   {
     "edit_number": 5003,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members equals 1.",
-    "procedure": "￼Use Formula #2."
+    "edit_condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members equals 1.",
+    "edit_procedure": "￼Use Formula #2."
   },
   {
     "edit_number": 5004,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is greater than 2",
-    "procedure": "￼Use Formula #3."
+    "edit_condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is greater than 2",
+    "edit_procedure": "￼Use Formula #3."
   },
   {
     "edit_number": 5005,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members is greater than 1.",
-    "procedure": "￼Use Formula #3."
+    "edit_condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members is greater than 1.",
+    "edit_procedure": "￼Use Formula #3."
   },
   {
     "edit_number": 5006,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I and the following fields are non-blank: One of Parents' AGI, Father's Income, Mother's Income, Parents' Worksheet A Total, Parents' Worksheet B Total, Parents' Marital Status, Parents' Number of Family Members, Parents' Number in College",
-    "procedure": "￼Calculate Parents' Contribution (PC) using Formula #1, Steps 1-8. If Parents' AGI is non-blank, assume status is tax filer. If Parents' AGI is blank, assume status is non-tax filer. If any financial field is blank, assume zero for calculation. "
+    "edit_condition": "If model is I and the following fields are non-blank: One of Parents' AGI, Father's Income, Mother's Income, Parents' Worksheet A Total, Parents' Worksheet B Total, Parents' Marital Status, Parents' Number of Family Members, Parents' Number in College",
+    "edit_procedure": "￼Calculate Parents' Contribution (PC) using Formula #1, Steps 1-8. If Parents' AGI is non-blank, assume status is tax filer. If Parents' AGI is blank, assume status is non-tax filer. If any financial field is blank, assume zero for calculation. "
   },
   {
     "edit_number": 5007,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is D.",
-    "procedure": "￼Use Formula #4."
+    "edit_condition": "If model is D.",
+    "edit_procedure": "￼Use Formula #4."
   },
   {
     "edit_number": 5008,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is less than or equal to 2.",
-    "procedure": "￼Use Formula #5."
+    "edit_condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is less than or equal to 2.",
+    "edit_procedure": "￼Use Formula #5."
   },
   {
     "edit_number": 5009,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members equals 1.",
-    "procedure": "￼Use Formula #5."
+    "edit_condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members equals 1.",
+    "edit_procedure": "￼Use Formula #5."
   },
   {
     "edit_number": 5010,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is greater than 2.",
-    "procedure": "￼Use Formula #6."
+    "edit_condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is greater than 2.",
+    "edit_procedure": "￼Use Formula #6."
   },
   {
     "edit_number": 5011,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members is greater than 1. .",
-    "procedure": "￼Use Formula #6."
+    "edit_condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members is greater than 1. .",
+    "edit_procedure": "￼Use Formula #6."
   },
   {
     "edit_number": 5012,
     "edit_type": "Determination of Formula Type",
-    "condition": "If model is I and the following fields are non-blank: One of Parents' AGI, Father's Income, Mother's Income, Parents' Worksheet A Total, Parents' Worksheet B Total, Parents' Marital Status, Parents' Number of Family Members , Parents' Number in College",
-    "procedure": "Calculate Parents' Contribution (PC) using Formula #4, Steps 1-5. If Parents' AGI is non-blank, assume status is tax filer. If Parents' AGI is blank, assume status is non-tax filer. If any financial field is blank, assume zero for calculation."
+    "edit_condition": "If model is I and the following fields are non-blank: One of Parents' AGI, Father's Income, Mother's Income, Parents' Worksheet A Total, Parents' Worksheet B Total, Parents' Marital Status, Parents' Number of Family Members , Parents' Number in College",
+    "edit_procedure": "Calculate Parents' Contribution (PC) using Formula #4, Steps 1-5. If Parents' AGI is non-blank, assume status is tax filer. If Parents' AGI is blank, assume status is non-tax filer. If any financial field is blank, assume zero for calculation."
   }
 ]
