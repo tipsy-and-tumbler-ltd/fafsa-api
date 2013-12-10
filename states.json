@@ -1,51 +1,55 @@
 [
   {
-    "Alberta": "British Columbia",
-    "AB": "BC"
+    "State": "Alberta",
+    "Abbreviation": "AB"
   },
   {
-    "Alberta": "Manitoba",
-    "AB": "MB"
+    "State": "British Columbia",
+    "Abbreviation": "BC"
   },
   {
-    "Alberta": "New Brunswick",
-    "AB": "NB"
+    "State": "Manitoba",
+    "Abbreviation": "MB"
   },
   {
-    "Alberta": "Newfoundland and Labrador",
-    "AB": "NL"
+    "State": "New Brunswick",
+    "Abbreviation": "NB"
   },
   {
-    "Alberta": "Northwest Territories",
-    "AB": "NT"
+    "State": "Newfoundland and Labrador",
+    "Abbreviation": "NL"
   },
   {
-    "Alberta": "Nova Scotia",
-    "AB": "NS"
+    "State": "Northwest Territories",
+    "Abbreviation": "NT"
   },
   {
-    "Alberta": "Nunavut",
-    "AB": "NU"
+    "State": "Nova Scotia",
+    "Abbreviation": "NS"
   },
   {
-    "Alberta": "Ontario",
-    "AB": "ON"
+    "State": "Nunavut",
+    "Abbreviation": "NU"
   },
   {
-    "Alberta": "Prince Edward Island",
-    "AB": "PE"
+    "State": "Ontario",
+    "Abbreviation": "ON"
   },
   {
-    "Alberta": "Quebec",
-    "AB": "QC"
+    "State": "Prince Edward Island",
+    "Abbreviation": "PE"
   },
   {
-    "Alberta": "Saskatchewan",
-    "AB": "SK"
+    "State": "Quebec",
+    "Abbreviation": "QC"
   },
   {
-    "Alberta": "Yukon",
-    "AB": "YT"
+    "State": "Saskatchewan",
+    "Abbreviation": "SK"
+  },
+  {
+    "State": "Yukon",
+    "Abbreviation": "YT"
   },
   {
     "State": "Armed Forces Europe",
