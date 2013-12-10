@@ -630,285 +630,387 @@
     "procedure": "￼Set reject reason 24."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4001,
     "Type": "Complete Reject Edits",
     "condition": "Dependent, and reported values for Parents' AGI, Father's Income, Mother's Income, and Parents' Worksheet B Total are all blank",
     "procedure": "￼Set reject reason 2."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4002,
     "Type": "Complete Reject Edits",
     "condition": "Independent, and reported values for Student's AGI, Student's Income, Spouse's Income, and Student's Worksheet B Total are all blank.",
     "procedure": "￼Set reject reason 2."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4003,
     "Type": "Complete Reject Edits",
     "condition": "Dependent, simplified needs test is not met, automatic zero EFC flag is not set, Parents’ Asset Threshold Exceeded is Yes or blank, and any one of reported values for supplemental data fields for parent and student are blank. Supplemental data is defined as follows: Parents'/Student's Cash, Savings and Checking, Parents'/Student's Real Estate/Investment Net Worth, Parents'/Student's Business/Farm Net Worth",
     "procedure": "￼Set reject reason 1."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4004,
     "Type": "Complete Reject Edits",
     "condition": "Independent, simplified needs test is not met, automatic zero EFC flag not set, Student’s Asset Threshold Exceeded is Yes or blank, and any one of reported data for supplemental data fields for students are blank. Supplemental data is defined as follows: Student's Cash, Savings and Checking, Student's Real, Estate/Investment Net Worth, Student's Business/Farm Net Worth. ",
     "procedure": "￼Set reject reason 1."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4005,
     "Type": "Complete Reject Edits",
     "condition": "Citizenship is blank or not eligible.",
     "procedure": "￼Set reject reason 17."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4006,
     "Type": "Complete Reject Edits",
     "condition": "First Name and Last Name are blank.",
     "procedure": "￼Set reject reason 13."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4007,
     "Type": "Complete Reject Edits",
     "condition": "One of First Name or Last Name is blank.",
     "procedure": "￼Set reject reason N."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4008,
     "Type": "Complete Reject Edits",
     "condition": "One of First Name or Last Name is re-entered as blank on a correction record",
     "procedure": "￼Set reject reason N."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4009,
     "Type": "Complete Reject Edits",
     "condition": "Student SSN Match Flag equals 1 or 6.",
     "procedure": "￼Set reject reason 18."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4010,
     "Type": "Complete Reject Edits",
     "condition": "Student SSN Match Flag equals 2.",
     "procedure": "￼Set reject reason R."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4011,
     "Type": "Complete Reject Edits",
     "condition": "Date of Birth is re-entered as same value on a correction record.",
     "procedure": "￼Suppress reject R."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4012,
     "Type": "Complete Reject Edits",
     "condition": "Student SSN Match Flag equals 3.",
     "procedure": "￼Set reject reason D."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4013,
     "Type": "Complete Reject Edits",
     "condition": "First and Last Name are re-entered as same value on a correction record.",
     "procedure": "￼Suppress reject D."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4014,
     "Type": "Complete Reject Edits",
     "condition": "Student SSN Match Flag equals 5.",
     "procedure": "￼Set reject reason 8."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4015,
     "Type": "Complete Reject Edits",
     "condition": "Date of Birth is blank or day is out of range.",
     "procedure": "￼Set reject reason 5."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4016,
     "Type": "Complete Reject Edits",
     "condition": "Date of Birth year is equal to 1900 through 1938 and Student SSN Match Flag is not equal to 4.",
     "procedure": "￼Set reject reason A."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4017,
     "Type": "Complete Reject Edits",
     "condition": "Date of Birth year is re-entered as same value of 1900 through 1938 on a correction record.",
     "procedure": "￼Suppress reject A."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4018,
     "Type": "Complete Reject Edits",
     "condition": "Independent, Date of Birth is 09/01/97 or greater and not out of range, answer to Orphan or Ward is 'No' or blank, and Student SSN Match Flag is not equal to 4",
     "procedure": "￼Set reject reason B."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4019,
     "Type": "Complete Reject Edits",
     "condition": "Date of Birth is re-entered as same value on a correction record",
     "procedure": "￼Suppress reject B."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4020,
     "Type": "Complete Reject Edits",
     "condition": "Dependent, Parents’ Taxes Paid is greater than zero and equal to or greater than Parents’ AGI, and Parents’ IRS Data Field flag for AGI or taxes paid is not equal to 1.",
     "procedure": "￼Set reject reason 12."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4021,
     "Type": "Complete Reject Edits",
     "condition": "Reject 12 override code is set by Financial Aid Administrator. ",
     "procedure": "￼Suppress reject 12."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4022,
     "Type": "Complete Reject Edits",
     "condition": "Student’s Taxes Paid is greater than zero and equal to or greater than Student’s AGI, and Student’s IRS Data Field flag for AGI or taxes paid is not equal to 1. Set reject reason 3.",
     "procedure": "￼Set reject reason 3."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4023,
     "Type": "Complete Reject Edits",
     "condition": "Reject 3 override code is set by Financial Aid Administrator. ",
     "procedure": "￼Suppress reject 3."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4024,
     "Type": "Complete Reject Edits",
     "condition": "Dependent, Parents’ Taxes Paid is greater than zero, not equal to or greater than Parents’ AGI, greater than or equal to 40% of Parents’ AGI, Parents’ IRS Data Field flag for AGI or taxes paid is not equal to 1, and Professional Judgment Flag is not set to 1.",
     "procedure": "￼Set reject reason C."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4025,
     "Type": "Complete Reject Edits",
     "condition": "Parents’ AGI and Taxes Paid is re-entered as same value on a correction record.",
     "procedure": "￼Suppress reject C."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4026,
     "Type": "Complete Reject Edits",
     "condition": "Independent, Student’s Taxes Paid is greater than zero, not equal to or greater than Student’s AGI, greater than or equal to 40% of Student’s AGI, Student’s IRS Data Field flag for AGI or taxes paid is not equal to 1, and Professional Judgment Flag is not set to 1. ",
     "procedure": "￼Set reject reason C."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4027,
     "Type": "Complete Reject Edits",
     "condition": "Student’s AGI and Taxes Paid is re-entered as same value on a correction record.",
     "procedure": "￼ Suppress reject C."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4028,
     "Type": "Complete Reject Edits",
     "condition": "Dependent, Student’s Taxes Paid is greater than zero, not equal to or greater than Student’s AGI, greater than or equal to 40% of Student’s AGI, Student’s IRS Data Field flag for AGI or taxes paid is not equal to 1, and Professional Judgment Flag is not set to 1.",
     "procedure": "￼Set reject reason G."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4029,
     "Type": "Complete Reject Edits",
     "condition": "Student’s AGI and Taxes Paid is re-entered as same value on a correction record.",
     "procedure": "￼ Suppress reject G."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4030,
     "Type": "Complete Reject Edits",
     "condition": "Dependent, Parents’ Tax Return Status is Will not file, Parents’ Marital Status is single, separated/divorced, or widowed, and Father’s Income or Mother’s Income is greater than $12,500@.",
     "procedure": "￼Set reject reason 20."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4031,
     "Type": "Complete Reject Edits",
     "condition": "Dependent, Parents’ Tax Return Status is Will not file, Parents’ Marital Status is married, and Father’s Income plus Mother’s Income is greater than $19,500@.",
     "procedure": "￼Set reject reason 20."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4032,
     "Type": "Complete Reject Edits",
     "condition": "Independent, Student’s Tax Return Status is Will not file, Student’s Marital Status is single, separated, or divorced/widowed, Number of Family Members is 1, and Student’s Income is greater than $9,750@.",
     "procedure": "￼Set reject reason 20."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4033,
     "Type": "Complete Reject Edits",
     "condition": "Independent, Student’s Tax Return Status is Will not file, Student’s Marital Status is single, separated, or divorced/widowed, Number of Family Members is greater than 1, and Student’s Income is greater than $12,500@.",
     "procedure": "￼Set reject reason 20."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4034,
     "Type": "Complete Reject Edits",
     "condition": "Independent, Student’s Tax Return Status is Will not file, Student’s Marital Status is married, and Student’s Income plus Spouse’s Income is greater than $19,500@.",
     "procedure": "￼Set reject reason 20."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4035,
     "Type": "Complete Reject Edits",
     "condition": "Reject 20 override code is set by Financial Aid Administrator.",
     "procedure": "￼Suppress reject reason 20."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4036,
     "Type": "Complete Reject Edits",
     "condition": "036 Dependent, Parents' Marital Status is blank, and Parents' Number of Family Members is blank or 01.",
     "procedure": "￼Set reject reason 10."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4037,
     "Type": "Complete Reject Edits",
     "condition": "Independent, Student's Marital Status is blank, and Student's Family Members is blank.",
     "procedure": "￼Set reject reason 10."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4038,
     "Type": "Complete Reject Edits",
     "condition": "Application transaction and Student’s Marital Status Date is non-blank and (greater than the Date Completed if Date Completed is non-blank) or (greater than application receipt date if Date Completed is blank), or Correction transaction and Student’s Marital Status Date is non-blank and greater than transaction receipt date.",
     "procedure": "￼Set reject reason 4."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4039,
     "Type": "Complete Reject Edits",
     "condition": "Student’s Marital Status Date is corrected to date that is greater than or equal to application receipt date and less than or equal to transaction receipt date.",
     "procedure": "￼Set reject reason 21."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4040,
     "Type": "Complete Reject Edits",
     "condition": "Reject 21 override code is set by Financial Aid Administrator",
     "procedure": "￼Suppress reject 21."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4041,
     "Type": "Complete Reject Edits",
     "condition": "Dependent, Parents' Number of Family Members is 15 or more, and Professional Judgment Flag is not set to 1.",
     "procedure": "￼Set reject reason W."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4042,
     "Type": "Complete Reject Edits",
     "condition": "Parents’ Number of Family Members is re-entered as the same value on a correction record.",
     "procedure": "￼ Suppress reject W."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4043,
     "Type": "Complete Reject Edits",
     "condition": "Independent, Student's Number of Family Members is 15 or more, and Professional Judgment Flag is not set to 1.",
     "procedure": "￼Set reject reason W."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4044,
     "Type": "Complete Reject Edits",
     "condition": "Student’s Number of Family Members is re-entered as the same value on a correction record.",
     "procedure": "Suppress reject W."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 4045,
     "Type": "Complete Reject Edits",
     "condition": "Dependent, Father's Income and Mother's Income are both non-zero and non-blank, Parents' Marital Status is single, separated/divorced, or widowed, and Professional Judgment Flag is not set to 1.",
     "procedure": "￼Set reject reason 11."
   },
   {
-    "edit_number": 4064,
-    "Type": "Suppress",
-    "condition": "Suppress",
-    "procedure": "￼Set reject reason 24."
+    "edit_number": 4046,
+    "Type": "Complete Reject Edits",
+    "condition": "Professional Judgment Flag is not set to 1",
+    "procedure": "￼Set reject reason 11."
+  },
+  {
+    "edit_number": 4047,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent and parent did not sign application",
+    "procedure": "￼Set reject reason 15."
+  },
+  {
+    "edit_number": 4048,
+    "Type": "Complete Reject Edits",
+    "condition": "Student did not sign application.",
+    "procedure": "￼Set reject reason 14."
+  },
+  {
+    "edit_number": 4049,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent and (any one of Father’s SSN, Last Name and Date of Birth is blank) and (any one of Mother’s SSN, Last Name and Date of Birth is blank).",
+    "procedure": "￼Set reject reason 9."
+  },
+  {
+    "edit_number": 4050,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent, Father’s SSN Match Flag is equal to 1 or 6 and Mother’s SSN Match Flag is not equal to 4.",
+    "procedure": "￼Set reject reason 6."
+  },
+  {
+    "edit_number": 4051,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent, Mother’s SSN Match Flag is equal to 1 or 6 and Father’s SSN Match Flag is not equal to 4.",
+    "procedure": "￼Set reject reason 7."
+  },
+  {
+    "edit_number": 4052,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent, Father’s SSN Match Flag is equal to 2 and Mother’s SSN Match Flag is not equal to 4.",
+    "procedure": "￼Set reject reason S."
+  },
+  {
+    "edit_number": 4053,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent and Father’s Date of Birth is re-entered as same value on a correction record.",
+    "procedure": "￼Set reject reason S."
+  },
+  {
+    "edit_number": 4054,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent, Mother’s SSN Match Flag is equal to 2 and Father’s SSN Match Flag is not equal to 4.",
+    "procedure": "￼Set reject reason T."
+  },
+  {
+    "edit_number": 4055,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent and Mother’s Date of Birth is re-entered as same value on a correction record.",
+    "procedure": "￼Set reject reason T."
+  },
+  {
+    "edit_number": 4056,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent, Father’s SSN Match Flag is equal to 3 and Mother’s SSN Match Flag is not equal to 4.",
+    "procedure": "￼Set reject reason E."
+  },
+  {
+    "edit_number": 4057,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent and Father’s Last Name and First Initial are re-entered as same value on a correction record.",
+    "procedure": "￼Suppress reject E."
+  },
+  {
+    "edit_number": 4058,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent, Mother’s SSN Match Flag is equal to 3 and Father’s SSN Match Flag is not equal to 4.",
+    "procedure": "￼Suppress reject F."
+  },
+  {
+    "edit_number": 4059,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent and Mother’s Last Name and First Initial are re-entered as same value on a correction record.",
+    "procedure": "￼Suppress reject F."
+  },
+  {
+    "edit_number": 4060,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent, Father’s SSN is all zeroes, Mother’s SSN is blank or all zeroes, Parents’ Tax Return Status is filed or will file, and Type of Tax Return is not foreign.",
+    "procedure": "￼Set reject reason J."
+  },
+  {
+    "edit_number": 4061,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent and Father’s SSN is re-entered as same value on a correction record.",
+    "procedure": "￼Suppress reject J."
+  },
+  {
+    "edit_number": 4062,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent, Mother’s SSN is all zeroes, Father’s SSN is blank or all zeroes, Parents’ Tax Return Status is filed or will file, and Type of Tax Return is not foreign.",
+    "procedure": "￼Set reject reason K."
+  },
+  {
+    "edit_number": 4063,
+    "Type": "Complete Reject Edits",
+    "condition": "Dependent and Mother’s SSN is re-entered as same value on a correction record.",
+    "procedure": "￼Suppress reject K."
   },
   {
     "edit_number": 4064,
-    "Type": "Complete Reject Edits",
-    "condition": "NSLDS Fraud Loan Flag is set to Y.",
-    "procedure": "￼Set reject reason 24."
+    "Type": "Determination of Formula Type",
+    "condition": "If model is D.",
+    "procedure": "￼Use Formula #1."
   }
 ]
