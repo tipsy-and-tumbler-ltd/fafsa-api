@@ -16,7 +16,7 @@ overview: true
 <script type="text/javascript">
 function listAPIs()
     {
-    $.getJSON('json/resources.json', function(data) {
+    $.getJSON('/fafsa-api/data/resources.json', function(data) {
         toggle = 0;
          $.each(data, function(key, val) {
             var template = $('#resourcesListingTemplate').html();
