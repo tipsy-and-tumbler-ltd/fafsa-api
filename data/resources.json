@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "FAFSA Form - PDF",
+    "Description": "Free Application for Federal Student Aid. Use this form to apply free for federal and state student grants, work-study and loans.",
+    "URL": "http://www.fafsa.ed.gov/fotw1314/pdf/PdfFafsa13-14.pdf"
+  },
+  {
+    "Name": "Federal Student Aid ",
+    "Description": "Offical site of Federal Student Aid, a part of the U.S. Department of Education.",
+    "URL": "http://studentaid.ed.gov/"
+  },
+  {
+    "Name": "Application Processing System Specifications for Software Developers",
+    "Description": "This is the specification provided by the Department of Education, targeting developers who are building applications around FAFSA. I derived many of the APIs and datasets from this PDF.",
+    "URL": "http://www.ifap.ed.gov/appprocspecsswd/attachments/1314AppProcSysSoftwareDevSpecsAugust2013Update.pdf"
+  },  
+  {
+    "Name": "Data.gov - Education",
+    "Description": "The official location for open data coming out of the Department of Education.",
+    "URL": "http://www.data.gov/education/community/education"
+  },
+  {
+    "Name": "FAFSA on Twitter",
+    "Description": "Official account of Federal Student Aid, an office of the U.S. Dept. of Education. We provide grants, loans & work-study funds for college & career school.",
+    "URL": "https://twitter.com/FAFSA"
+  }
+]

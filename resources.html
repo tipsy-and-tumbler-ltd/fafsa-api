@@ -1,0 +1,34 @@
+---
+layout: default
+title: Roadmap
+overview: true
+---
+
+<h2>Resources</h2>
+<p>Here are some resources I've used in compiling this project, that you may find useful.</p>
+
+{% raw  %}
+<script id="resourcesListingTemplate" type="text/template">       
+    <li><a href="{{URL}}"><strong>{{Name}}</strong></a> - {{Description}}</li>                                                                                               
+</script>
+{% endraw %}        
+
+<script type="text/javascript">
+function listAPIs()
+    {
+    $.getJSON('json/support.json', function(data) {
+        toggle = 0;
+         $.each(data, function(key, val) {
+            var template = $('#resourcesListingTemplate').html();
+            var html = Mustache.to_html(template, val);
+            $('#resourcesListing').append(html);                          
+            });
+        });
+    } 
+listAPIs();
+</script>      
+
+<h3>Self-Service Support</h3>
+<div style="height: 300px; overflow: auto;">
+    <ul id="resourcesListing"></ul>
+</div>
