@@ -1008,9 +1008,75 @@
     "procedure": "￼Suppress reject K."
   },
   {
-    "edit_number": 4064,
+    "edit_number": 5001,
     "Type": "Determination of Formula Type",
     "condition": "If model is D.",
     "procedure": "￼Use Formula #1."
+  },
+  {
+    "edit_number": 5002,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is less than or equal to 2.",
+    "procedure": "￼Use Formula #2."
+  },
+  {
+    "edit_number": 5003,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members equals 1.",
+    "procedure": "￼Use Formula #2."
+  },
+  {
+    "edit_number": 5004,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is greater than 2",
+    "procedure": "￼Use Formula #3."
+  },
+  {
+    "edit_number": 5005,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members is greater than 1.",
+    "procedure": "￼Use Formula #3."
+  },
+  {
+    "edit_number": 5006,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I and the following fields are non-blank: One of Parents' AGI, Father's Income, Mother's Income, Parents' Worksheet A Total, Parents' Worksheet B Total, Parents' Marital Status, Parents' Number of Family Members, Parents' Number in College",
+    "procedure": "￼Calculate Parents' Contribution (PC) using Formula #1, Steps 1-8. If Parents' AGI is non-blank, assume status is tax filer. If Parents' AGI is blank, assume status is non-tax filer. If any financial field is blank, assume zero for calculation. "
+  },
+  {
+    "edit_number": 5007,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is D.",
+    "procedure": "￼Use Formula #4."
+  },
+  {
+    "edit_number": 5008,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is less than or equal to 2.",
+    "procedure": "￼Use Formula #5."
+  },
+  {
+    "edit_number": 5009,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members equals 1.",
+    "procedure": "￼Use Formula #5."
+  },
+  {
+    "edit_number": 5010,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I, Student's Marital Status is married, and Student's Number of Family Members is greater than 2.",
+    "procedure": "￼Use Formula #6."
+  },
+  {
+    "edit_number": 5011,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I, Student's Marital Status is single, separated, or divorced/widowed, and Student's Number of Family Members is greater than 1. .",
+    "procedure": "￼Use Formula #6."
+  },
+  {
+    "edit_number": 5012,
+    "Type": "Determination of Formula Type",
+    "condition": "If model is I and the following fields are non-blank: One of Parents' AGI, Father's Income, Mother's Income, Parents' Worksheet A Total, Parents' Worksheet B Total, Parents' Marital Status, Parents' Number of Family Members , Parents' Number in College",
+    "procedure": "Calculate Parents' Contribution (PC) using Formula #4, Steps 1-5. If Parents' AGI is non-blank, assume status is tax filer. If Parents' AGI is blank, assume status is non-tax filer. If any financial field is blank, assume zero for calculation."
   }
 ]
