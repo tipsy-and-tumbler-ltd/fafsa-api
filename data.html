@@ -41,7 +41,7 @@ overview: true
 <script type="text/javascript">
     function listData()
         {
-        $.getJSON('https://raw.github.com/ed-data/fafsa-api/master/data.json', function(data) {
+        $.getJSON('data.json', function(data) {
              $.each(data, function(key, val) {
                 
                 var template = $('#dataListingTemplate').html();
