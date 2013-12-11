@@ -1,0 +1,74 @@
+{
+  "apiVersion": "1.0",
+  "swaggerVersion": "1.3",
+  "basePath": "http://fafsa.api.publicprivatesector.org",
+  "resourcePath": "/",
+  "produces": [
+    "application/json"
+  ],
+  "apis": [
+    {
+      "path": "/fields/",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "Pulls all fields",
+          "notes": "Returns a list of all fields in the FAFSA form.",
+          "nickname": "getFields",
+          "type": "field",
+          "parameters": [
+            {
+              "id": "appid",
+              "name": "appid",
+              "description": "application id for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "appkey",
+              "name": "appkey",
+              "description": "application key for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            }
+          ],          
+          "produces": [
+            "application/json"
+          ],
+          "responseMessages": [
+            {
+              "code": 404,
+              "message": "There are no fields"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "models": {
+    "field": {
+      "id": "field",
+      "properties": {
+        "question_number": {
+          "type": "string"
+        },
+        "field_number": {
+          "type": "integer"
+        },
+        "field_label": {
+          "type": "string"
+        },
+        "field_name": {
+          "type": "string"
+        },
+        "field_length": {
+          "type": "integer"
+        }        
+      }
+    }
+  }
+}

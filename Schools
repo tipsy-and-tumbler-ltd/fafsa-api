@@ -1,0 +1,179 @@
+{
+  "apiVersion": "1.0",
+  "swaggerVersion": "1.3",
+  "basePath": "http://fafsa.api.publicprivatesector.org",
+  "resourcePath": "/",
+  "produces": [
+    "application/json"
+  ],
+  "apis": [
+    {
+      "path": "/schools/",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "Pulls schools",
+          "notes": "Returns a list of colleges and universities.",
+          "nickname": "getSchools",
+          "type": "school",
+          "parameters": [
+            {
+              "id": "appid",
+              "name": "appid",
+              "description": "application id for application making calls",
+              "required": true,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "appkey",
+              "name": "appkey",
+              "description": "application key for application making calls",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "city",
+              "name": "city",
+              "description": "a city name to filter by",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "state",
+              "name": "state",
+              "description": "a state to filter by",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "q",
+              "name": "q",
+              "description": "a key word or phrasae to by",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "page",
+              "name": "page",
+              "description": "which page in the results to view",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            },
+            {
+              "id": "limit",
+              "name": "limit",
+              "description": "number of results per page",
+              "required": false,
+              "allowMultiple": false,
+              "dataType": "string",
+              "paramType": "query"
+            }
+          ],            
+          "produces": [
+            "application/json"
+          ],
+          "responseMessages": [
+            {
+              "code": 404,
+              "message": "There are no schools"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "models": {
+    "school": {
+      "id": "school",
+      "properties": {
+        "Institution_ID": {
+          "type": "string"
+        },
+        "Institution_Name": {
+          "type": "string"
+        },
+        "Institution_Address": {
+          "type": "string"
+        },
+        "Institution_City": {
+          "type": "string"
+        },
+        "Institution_State": {
+          "type": "string"
+        },
+        "Institution_Zip": {
+          "type": "string"
+        },
+        "Institution_Phone": {
+          "type": "string"
+        },
+        "Institution_OPEID": {
+          "type": "string"
+        },
+        "Institution_IPEDS_UnitID": {
+          "type": "string"
+        },
+        "Institution_Web_Address": {
+          "type": "string"
+        },
+        "Campus_ID": {
+          "type": "string"
+        },
+        "Campus_Name": {
+          "type": "string"
+        },
+        "Campus_Address": {
+          "type": "string"
+        },
+        "Campus_City": {
+          "type": "string"
+        },
+        "Campus_State": {
+          "type": "string"
+        },
+        "Campus_Zip": {
+          "type": "string"
+        },
+        "Campus_IPEDS_UnitID": {
+          "type": "string"
+        },
+        "Accreditation_Type": {
+          "type": "string"
+        },
+        "Agency_Name": {
+          "type": "string"
+        },
+        "Program_Name": {
+          "type": "string"
+        },
+        "Review_Date": {
+          "type": "string"
+        },
+        "Accreditation_Status": {
+          "type": "string"
+        },
+        "Accreditation_Date_Type": {
+          "type": "string"
+        },
+        "Periods": {
+          "type": "string"
+        },
+        "Last_Action": {
+          "type": "string"
+        }              
+      }
+    }
+  }
+}
