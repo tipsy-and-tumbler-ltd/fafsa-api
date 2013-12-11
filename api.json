@@ -1,0 +1,36 @@
+{
+	"apiVersion": "1.0",
+	"espiVersion": "1.1",
+	"apis": [
+		{
+			"name": "applications",
+			"path": "https://raw.github.com/ed-data/fafsa-api/master/Applications",
+			"description": ""
+		},
+		{
+			"name": "fields",
+			"path": "https://raw.github.com/ed-data/fafsa-api/master/Fields",
+			"description": ""
+		},
+		{
+			"name": "states",
+			"path": "https://raw.github.com/ed-data/fafsa-api/master/States",
+			"description": ""
+		},
+		{
+			"name": "rejection codes",
+			"path": "https://raw.github.com/ed-data/fafsa-api/master/RejectionCodes",
+			"description": ""
+		},
+		{
+			"name": "conditional procedures",
+			"path": "https://raw.github.com/ed-data/fafsa-api/master/ConditionalProcedures",
+			"description": ""
+		},
+		{
+			"name": "schools",
+			"path": "https://raw.github.com/ed-data/fafsa-api/master/Schools",
+			"description": ""
+		}		
+	]
+}

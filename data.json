@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Complete Data Catalog",
+        "description": "Version 1.0",
+        "keyword": "catalog",
+        "modified": "2013-12-10 06:00:00",
+        "publisher": "API Evangelist",
+        "person": "Kin Lane",
+        "mbox": "info@apievangelist.com",
+        "identifier": "https://raw.github.com/ed-data/fafsa-api/master/data.json",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/ed-data/fafsa-api/master/data.json",
+                "format": "json"
+            }
+        ]
+    },
+    {
+        "title": "FAFSA Form Conditional Procedures",
+        "description": "Version 1.0",
+        "keyword": "fafsa, student aid, conditional procedures",
+        "modified": "2013-12-10 06:00:00",
+        "publisher": "API Evangelist",
+        "person": "Kin Lane",
+        "mbox": "info@apievangelist.com",
+        "identifier": "https://raw.github.com/ed-data/fafsa-api/master/conditional_procedures.json",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/ed-data/fafsa-api/master/conditional_procedures.json",
+                "format": "json"
+            }
+        ]
+    },
+    {
+        "title": "FAFSA Form Fields",
+        "description": "Version 1.0",
+        "keyword": "fafsa, student aid, fields",
+        "modified": "2013-12-10 06:00:00",
+        "publisher": "API Evangelist",
+        "person": "Kin Lane",
+        "mbox": "info@apievangelist.com",
+        "identifier": "https://raw.github.com/ed-data/fafsa-api/master/fafsa-fields.json",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/ed-data/fafsa-api/master/fafsa-fields.json",
+                "format": "json"
+            }
+        ]
+    },
+    {
+        "title": "FAFSA Form Rejection Codes",
+        "description": "Version 1.0",
+        "keyword": "fafsa, student aid, rejection codes",
+        "modified": "2013-12-10 06:00:00",
+        "publisher": "API Evangelist",
+        "person": "Kin Lane",
+        "mbox": "info@apievangelist.com",
+        "identifier": "https://raw.github.com/ed-data/fafsa-api/master/rejection-codes.json",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/ed-data/fafsa-api/master/rejection-codes.json",
+                "format": "json"
+            }
+        ]
+    },
+    {
+        "title": "States",
+        "description": "Version 1.0",
+        "keyword": "fafsa, student aid, states",
+        "modified": "2013-12-10 06:00:00",
+        "publisher": "API Evangelist",
+        "person": "Kin Lane",
+        "mbox": "info@apievangelist.com",
+        "identifier": "https://raw.github.com/ed-data/fafsa-api/master/states.json",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/ed-data/fafsa-api/master/states.json",
+                "format": "json"
+            }
+        ]
+    },
+    {
+        "title": "Schools",
+        "description": "Version 1.0",
+        "keyword": "fafsa, student aid, schools, universities, colleges",
+        "modified": "2013-12-10 06:00:00",
+        "publisher": "API Evangelist",
+        "person": "Kin Lane",
+        "mbox": "info@apievangelist.com",
+        "identifier": "https://raw.github.com/ed-data/fafsa-api/master/schools.json",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/ed-data/fafsa-api/master/schools.json",
+                "format": "json"
+            }
+        ]
+    }       
+]
