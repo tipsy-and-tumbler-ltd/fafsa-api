@@ -1,0 +1,358 @@
+{
+  "name": "FAFSA API",
+  "description": "An open, demo API to show what is possible if there was an API for the FAFSA form.",
+  "image": "https://s3.amazonaws.com/kinlane-productions/public-private-sector/black-puzzle-500.png",
+  "url": "http://fda-data.github.io/fda-recalls/",
+  "apis": [
+    {
+      "name": "Applications",
+      "description": "Read / Write API resource for the FAFSA application.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/public-private-sector/black-puzzle-500.png",
+      "human-url": "http://ed-data.github.io/fafsa-api/docs.html",
+      "machine-url": "http://fafsa.api.publicprivatesector.org/swagger/Applications",
+      "tags": "education, financial aid",
+      "urls": [
+        {
+          "type": "swagger",
+          "url": "http://fafsa.api.publicprivatesector.org/swagger/Applications"
+        },
+        {
+          "type": "blog",
+          "url": "http://ed-data.github.io/fafsa-api/blog/"
+        },
+        {
+          "type": "code",
+          "url": "http://ed-data.github.io/fafsa-api/code.html"
+        },
+        {
+          "type": "data",
+          "url": "http://ed-data.github.io/fafsa-api/data.html"
+        },
+        {
+          "type": "roadmap",
+          "url": "http://ed-data.github.io/fafsa-api/roadmap.html"
+        },
+        {
+          "type": "resources",
+          "url": "http://ed-data.github.io/fafsa-api/resources.html"
+        }                                  
+      ],
+      "contact": [
+        {
+          "type": "email",
+          "url": "info@apievangelist.com"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/kinlane/"
+        }
+      ],
+      "meta": [
+        {
+          "key": "interface-license",
+          "vallue": "CC BY 3.0"
+        },
+        {
+          "type": "pricing",
+          "url": "Free"
+        }
+      ]
+    },
+    {
+      "name": "Fields",
+      "description": "Provides access to a list of fields that are on the FAFSA form.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/public-private-sector/black-puzzle-500.png",
+      "human-url": "http://ed-data.github.io/fafsa-api/docs.html",
+      "machine-url": "http://fafsa.api.publicprivatesector.org/swagger/Fields",
+      "tags": "fields, form, education, financial aid",
+      "urls": [
+        {
+          "type": "swagger",
+          "url": "http://fafsa.api.publicprivatesector.org/swagger/Fields"
+        },
+        {
+          "type": "blog",
+          "url": "http://ed-data.github.io/fafsa-api/blog/"
+        },
+        {
+          "type": "code",
+          "url": "http://ed-data.github.io/fafsa-api/code.html"
+        },
+        {
+          "type": "data",
+          "url": "http://ed-data.github.io/fafsa-api/data.html"
+        },
+        {
+          "type": "roadmap",
+          "url": "http://ed-data.github.io/fafsa-api/roadmap.html"
+        },
+        {
+          "type": "resources",
+          "url": "http://ed-data.github.io/fafsa-api/resources.html"
+        }                                  
+      ],
+      "contact": [
+        {
+          "type": "email",
+          "url": "info@apievangelist.com"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/kinlane/"
+        }
+      ],
+      "meta": [
+        {
+          "key": "interface-license",
+          "vallue": "CC BY 3.0"
+        },
+        {
+          "type": "pricing",
+          "url": "Free"
+        }
+      ]
+    },
+    {
+      "name": "States",
+      "description": "Provides a list of states in the US for use in application.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/public-private-sector/black-puzzle-500.png",
+      "human-url": "http://ed-data.github.io/fafsa-api/docs.html",
+      "machine-url": "http://fafsa.api.publicprivatesector.org/swagger/States",
+      "tags": "states, education, financial aid",
+      "urls": [
+        {
+          "type": "swagger",
+          "url": "http://fafsa.api.publicprivatesector.org/swagger/States"
+        },
+        {
+          "type": "blog",
+          "url": "http://ed-data.github.io/fafsa-api/blog/"
+        },
+        {
+          "type": "code",
+          "url": "http://ed-data.github.io/fafsa-api/code.html"
+        },
+        {
+          "type": "data",
+          "url": "http://ed-data.github.io/fafsa-api/data.html"
+        },
+        {
+          "type": "roadmap",
+          "url": "http://ed-data.github.io/fafsa-api/roadmap.html"
+        },
+        {
+          "type": "resources",
+          "url": "http://ed-data.github.io/fafsa-api/resources.html"
+        }                                  
+      ],
+      "contact": [
+        {
+          "type": "email",
+          "url": "info@apievangelist.com"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/kinlane/"
+        }
+      ],
+      "meta": [
+        {
+          "key": "interface-license",
+          "vallue": "CC BY 3.0"
+        },
+        {
+          "type": "pricing",
+          "url": "Free"
+        }
+      ]
+    },
+    {
+      "name": "Rejection Codes",
+      "description": "Provides a list of rejection codes for when a form is submitted.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/public-private-sector/black-puzzle-500.png",
+      "human-url": "http://ed-data.github.io/fafsa-api/docs.html",
+      "machine-url": "http://fafsa.api.publicprivatesector.org/swagger/RejectionCodes",
+      "tags": "rejection codes, education, financial aid",
+      "urls": [
+        {
+          "type": "swagger",
+          "url": "http://fafsa.api.publicprivatesector.org/swagger/RejectionCodes"
+        },
+        {
+          "type": "blog",
+          "url": "http://ed-data.github.io/fafsa-api/blog/"
+        },
+        {
+          "type": "code",
+          "url": "http://ed-data.github.io/fafsa-api/code.html"
+        },
+        {
+          "type": "data",
+          "url": "http://ed-data.github.io/fafsa-api/data.html"
+        },
+        {
+          "type": "roadmap",
+          "url": "http://ed-data.github.io/fafsa-api/roadmap.html"
+        },
+        {
+          "type": "resources",
+          "url": "http://ed-data.github.io/fafsa-api/resources.html"
+        }                                  
+      ],
+      "contact": [
+        {
+          "type": "email",
+          "url": "info@apievangelist.com"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/kinlane/"
+        }
+      ],
+      "meta": [
+        {
+          "key": "interface-license",
+          "vallue": "CC BY 3.0"
+        },
+        {
+          "type": "pricing",
+          "url": "Free"
+        }
+      ]
+    },
+    {
+      "name": "Conditional Procedures",
+      "description": "Provides a list of conditional procedures for processing a form.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/public-private-sector/black-puzzle-500.png",
+      "human-url": "http://ed-data.github.io/fafsa-api/docs.html",
+      "machine-url": "http://fafsa.api.publicprivatesector.org/swagger/ConditionalProcedures",
+      "tags": "conditional procedures, education, financial aid",
+      "urls": [
+        {
+          "type": "swagger",
+          "url": "http://fafsa.api.publicprivatesector.org/swagger/ConditionalProcedures"
+        },
+        {
+          "type": "blog",
+          "url": "http://ed-data.github.io/fafsa-api/blog/"
+        },
+        {
+          "type": "code",
+          "url": "http://ed-data.github.io/fafsa-api/code.html"
+        },
+        {
+          "type": "data",
+          "url": "http://ed-data.github.io/fafsa-api/data.html"
+        },
+        {
+          "type": "roadmap",
+          "url": "http://ed-data.github.io/fafsa-api/roadmap.html"
+        },
+        {
+          "type": "resources",
+          "url": "http://ed-data.github.io/fafsa-api/resources.html"
+        }                                  
+      ],
+      "contact": [
+        {
+          "type": "email",
+          "url": "info@apievangelist.com"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/kinlane/"
+        }
+      ],
+      "meta": [
+        {
+          "key": "interface-license",
+          "vallue": "CC BY 3.0"
+        },
+        {
+          "type": "pricing",
+          "url": "Free"
+        }
+      ]
+    },
+    {
+      "name": "Conditional Procedures",
+      "description": "Provides a list of higher educational institutions in the United States.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/public-private-sector/black-puzzle-500.png",
+      "human-url": "http://ed-data.github.io/fafsa-api/docs.html",
+      "machine-url": "http://fafsa.api.publicprivatesector.org/swagger/Schools",
+      "tags": "conditional procedures, education, financial aid",
+      "urls": [
+        {
+          "type": "swagger",
+          "url": "http://fafsa.api.publicprivatesector.org/swagger/Schools"
+        },
+        {
+          "type": "blog",
+          "url": "http://ed-data.github.io/fafsa-api/blog/"
+        },
+        {
+          "type": "code",
+          "url": "http://ed-data.github.io/fafsa-api/code.html"
+        },
+        {
+          "type": "data",
+          "url": "http://ed-data.github.io/fafsa-api/data.html"
+        },
+        {
+          "type": "roadmap",
+          "url": "http://ed-data.github.io/fafsa-api/roadmap.html"
+        },
+        {
+          "type": "resources",
+          "url": "http://ed-data.github.io/fafsa-api/resources.html"
+        }                                  
+      ],
+      "contact": [
+        {
+          "type": "email",
+          "url": "info@apievangelist.com"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/kinlane/"
+        }
+      ],
+      "meta": [
+        {
+          "key": "interface-license",
+          "vallue": "CC BY 3.0"
+        },
+        {
+          "type": "pricing",
+          "url": "Free"
+        }
+      ]
+    }       
+  ],
+  "include": [
+    {
+      "name": "API Evangelist",
+      "url": "http://apievangelist.com/api.json"
+    },
+    {
+      "type": "API Commons",
+      "url": "http://apicommons.org/api.json"
+    }
+  ],
+  "maintainer": [
+    {
+      "type": "Name",
+      "url": "Kin Lane"
+    },
+    {
+      "type": "email",
+      "url": "info@apievangelist.com"
+    },
+    {
+      "type": "twitter",
+      "url": "https://twitter.com/kinlane/"
+    }
+  ],
+  "tags": "api evangelist, API, Application Programming Interface, financial aid, students, schools, education",
+  "modified": "04/07/2014" 
+}
