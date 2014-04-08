@@ -1,0 +1,69 @@
+---
+layout: default
+title: Data
+overview: true
+---
+
+<ul class="toolbar">
+    <li>{"<a href="https://github.com/ed-data/fafsa-api/blob/master/data.json" title="JSON" target="_blank">JSON</a>"}</li>
+</ul>
+<h2>Data</h2>
+<p>This is a listing of data sets that are used in the FAFSA API project.</p>
+
+<!-- Begin List Code Samples--->
+{% raw  %}
+<script id="dataAccessTemplate" type="text/template">       
+    <a href="{{accessURL}}" target="_blank"><strong>{{format}}</strong></a>                                                                                             
+</script>
+<script id="dataListingTemplate" type="text/template">       
+    <tr>
+        <td width="30%"><strong>{{title}}</strong></td>
+        <td>{{keyword}}</td>
+        <td id="listing-{{identifier}}">&nbsp;</td>         
+    </tr>                                                                                          
+</script>
+{% endraw %}
+
+<div style="">
+     <table id="dataListing" border="0" width="100%" align="left" cellpadding="5" cellspacing="5">
+        <tr>
+            <td width="30%"><strong>Title</strong></td>
+            <td><strong>Keywords</strong></td>
+            <td><strong>Links</strong></td>       
+        </tr>           
+     </table>
+</div> 
+
+<script type="text/javascript">
+    function listData()
+        {
+        $.getJSON('data.json', function(data) {
+             $.each(data, function(key, val) {
+                
+                var template = $('#dataListingTemplate').html();
+                var html = Mustache.to_html(template, val);
+                $('#dataListing').append(html); 
+                
+                id = val['identifier'];
+
+                $.each(val['distribution'], function(key2, val2) {   
+                    
+                    var template2 = $('#dataAccessTemplate').html();
+                    var html2 = Mustache.to_html(template2, val2);                    
+                    $('#listing-'+id).append(html2); 
+                    
+                    });                      
+                });
+            });
+        } 
+    listData();
+</script>
+<!-- End List Code Simples--->
+
+<br /><br /><hr />
+<!-- 3scale -->
+<p align="center">
+<a href="http://bit.ly/13esk6Q" target="_blank" title="APIs From 3Scale">
+    <img src="https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/empowered-by-3scale.png" width="300" style="padding-bottom: 15px;" />
+</a>        
+</p>  
